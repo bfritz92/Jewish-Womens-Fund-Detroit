@@ -1,64 +1,3 @@
-@mixin media($res) {
-  @if mobile == $res {
-    @media only screen and (min-width: $mobile_width) {
-      @content;
-    }
-  }
-
-  @if tablet == $res {
-    @media only screen and (min-width: $tablet_width) {
-      @content;
-    }
-  }
-
-  @if desktop == $res {
-    @media only screen and (min-width: $desktop_width) {
-      @content;
-    }
-  }
-
-  @if wide == $res {
-    @media only screen and (min-width: $wide_width) {
-      @content;
-    }
-  }
-}
-
-@mixin link-transition($attr: color) {
-  transition: $attr $link_transition ease-in-out;
-}
-
-@mixin button-transition() {
-  transition: background $button_transition ease-in-out;
-}
-
-@mixin button-all-transition() {
-  transition: all $button_transition ease-in-out;
-}
-
-@mixin background-transition() {
-  transition: background $background_transition ease-in-out;
-}
-
-@mixin selection {
-  ::-moz-selection {
-    @content;
-  }
-  ::selection {
-    @content;
-  }
-}
-
-/** === Layout === */
-
-#page {
-  width: 100%;
-}
-
-.site-content {
-  /*overflow: hidden;*/
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -69,7 +8,14 @@
   grid-template-columns: repeat(14, 1fr);
   grid-column-gap: 15px;
 }
-
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  @media only screen and (min-width: $tablet) {
+    flex-direction: row;
+  }
+}
 .hide {
   display: none !important;
 }
@@ -84,164 +30,55 @@
   float: left;
   padding-right: 20px;
 }
+
+.one-three-grid {
+  display: block;
+  @media only screen and (min-width: $tablet) {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+.three-one-grid {
+  display: block;
+  @media only screen and (min-width: $tablet) {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+.one-two-grid {
+  display: block;
+  @media only screen and (min-width: $tablet) {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.two-one-grid {
+  display: block;
+  @media only screen and (min-width: $tablet) {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.one-one-grid {
+  display: block;
+  @media only screen and (min-width: $tablet) {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 //--------------------------------------------------------------
 // Typography Setup
 // Mixins
-//--------------------------------------------------------------
-
-@mixin type-body($type-body: regular) {
-  @if $type-body == regular {
-    font-size: $type--fontsize-base;
-  } // @include type-body();
-
-  @if $type-body == intro {
-    // font-family: $type--fontfamily;
-    font-size: $type--fontsize-nudge;
-    font-weight: $type--fontweight-regular;
-    letter-spacing: $type-tracking-close;
-    line-height: $type--lineheight-medium;
-  } // @include type-body(intro);
-
-  @if $type-body == note {
-    font-size: $type--fontsize-small;
-  } // @include type-body(note);
-
-  @if $type-body == aside {
-    font-family: $type--fontfamily-mono;
-    font-size: $type--fontsize-xsmall;
-    letter-spacing: $type-tracking-medium;
-  } // @include type-body(aside);
-} //@include type-body();
-
-@mixin type-blockquote($type-blockquote: regular) {
-  @extend %type-blockquote;
-
-  @if $type-blockquote == large {
-    font-size: $type--fontsize-xlarge;
-    line-height: $type--lineheight-tight;
-    letter-spacing: $type--letterspacing-tight;
-  } // @include type-blockquote(large);
-
-  @if $type-blockquote == regular {
-    font-size: $type--fontsize-medium;
-    line-height: $type--lineheight-condensed;
-    letter-spacing: $type--letterspacing-reset;
-  } // @include type-blockquote(regular);
-
-  @if $type-blockquote == small {
-    font-size: $type--fontsize-base;
-    line-height: $type--lineheight-regular;
-    letter-spacing: $type--letterspacing-medium;
-  }
-} // @include type-blockquote();
-
-@mixin type-heading($type-heading) {
-  @if $type-heading == colossal {
-    font-size: $type--fontsize-colossal;
-    letter-spacing: $type-tracking-medium;
-    line-height: $type--lineheight-tight;
-    font-weight: $type--fontweight-poster;
-  } // @include type-heading(colossal);
-
-  @if $type-heading == huge {
-    font-size: $type--fontsize-huge;
-    letter-spacing: $type-tracking-medium;
-    line-height: $type--lineheight-tight;
-    font-weight: $type--fontweight-poster;
-  } // @include type-heading(huge);
-
-  @if $type-heading == big {
-    font-size: $type--fontsize-xxlarge;
-    letter-spacing: $type-tracking-medium;
-    line-height: $type--lineheight-tight;
-    font-weight: $type--fontweight-poster;
-  } // @include type-heading(big);
-
-  @if $type-heading == extra or $type-heading == extra-poster {
-    font-size: $type--fontsize-xlarge;
-    line-height: $type--lineheight-condensed;
-    @if $type-heading == extra-poster {
-      font-weight: $type--fontweight-poster;
-      letter-spacing: $type-tracking-medium;
-    } @else {
-      font-weight: $type--fontweight-extrabold;
-      letter-spacing: $type-tracking-slight;
-    }
-  } // @include type-heading(extra);
-  // @include type-heading(extra-poster);
-
-  @if $type-heading == large or $type-heading == large-poster {
-    font-size: $type--fontsize-large;
-    line-height: $type--lineheight-condensed;
-    @if $type-heading == large-poster {
-      font-weight: $type--fontweight-poster;
-      letter-spacing: $type-tracking-medium;
-    } @else {
-      font-weight: $type--fontweight-extrabold;
-      letter-spacing: $type-tracking-reset;
-    }
-  } // @include type-heading(large);
-  // @include type-heading(large-poster);
-
-  @if $type-heading == medium or $type-heading == medium-extra {
-    font-size: $type--fontsize-medium;
-    line-height: $type--lineheight-close;
-    @if $type-heading == medium-extra {
-      font-weight: $type--fontweight-extrabold;
-      letter-spacing: $type-tracking-slight;
-    } @else {
-      font-weight: $type--fontweight-bold;
-      letter-spacing: $type-tracking-reset;
-    }
-  } // @include type-heading(medium);
-  // @include type-heading(medium-extra);
-
-  @if $type-heading == modest or $type-heading == modest-extra {
-    font-size: $type--fontsize-base;
-    letter-spacing: $type-tracking-tight;
-    line-height: $type--lineheight-medium;
-    @if $type-heading == modest-extra {
-      font-weight: $type--fontweight-extrabold;
-    } @else {
-      font-weight: $type--fontweight-bold;
-    }
-  } // @include type-heading(modest);
-  // @include type-heading(modest-extra);
-} //@include type-heading(x);
-
-@mixin microtype(
-  $microtype-weight: regular,
-  $microtype-size: regular,
-  $microtype-style: uppercase
-) {
-  font-family: $type--fontfamily-mono;
-
-  @if $microtype-weight == regular {
-    font-weight: $type--fontweight-regular;
-  } @else if $microtype-weight == medium {
-    font-weight: $type--fontweight-medium;
-  } @else if $microtype-weight == bold {
-    font-weight: $type--fontweight-bold;
-  }
-
-  @if $microtype-size == regular {
-    font-size: $type--fontsize-xsmall;
-    letter-spacing: $type-tracking-medium;
-  } @else if $microtype-size == small {
-    font-size: $type--fontsize-xxsmall;
-    letter-spacing: $type-tracking-medium;
-  } @else if $microtype-size == tiny {
-    font-size: $type--fontsize-tiny;
-    letter-spacing: $type-tracking-large;
-  }
-
-  line-height: $type--lineheight-reset;
-
-  @if $microtype-style == uppercase {
-    text-transform: uppercase;
-  }
-} //@include microtype(regular, regular);
-
+//-------------------------------------------------------------
 //Fluid type. Which Actually works. Which is cool.
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -266,38 +103,6 @@
         font-size: $max-font-size;
       }
     }
-  }
-}
-
-//--------------------------------------------------------------
-// Responsive Background Images
-//     Just the background image swap, styling is still handled
-//     on the relevant partial.
-//--------------------------------------------------------------
-
-@mixin responsive-bg(
-  $img-mobile,
-  $img-tablet,
-  $img-large-tablet,
-  $img-laptop,
-  $img-large,
-  $img-x-large
-) {
-  background-image: url(#{$img-mobile});
-  @media only screen and (min-width: $tablet) {
-    background-image: url(#{$img-tablet});
-  }
-  @media only screen and (min-width: $large-tablet) {
-    background-image: url(#{$img-large-tablet});
-  }
-  @media only screen and (min-width: $laptop) {
-    background-image: url(#{$img-laptop});
-  }
-  @media only screen and (min-width: $large) {
-    background-image: url(#{$img-large});
-  }
-  @media only screen and (min-width: $x-large) {
-    background-image: url(#{$img-x-large});
   }
 }
 
@@ -482,12 +287,6 @@
   font-size: 18px;
   line-height: 1.2;
 }
-.blue-bg {
-  background-color: $color__jfmd-blue;
-}
-.cyan-bg {
-  background-color: $color__jfmd-cyan;
-}
 .paragraph-padding {
   padding-left: 10px;
   padding-right: 10px;
@@ -531,14 +330,7 @@
     display: none;
   }
 }
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  @media only screen and (min-width: $tablet) {
-    flex-direction: row;
-  }
-}
+
 .wp-block-group.flex {
   display: block;
   .wp-block-group__inner-container {
@@ -554,48 +346,4 @@
   display: none;
 }
 
-.one-three-grid {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 3fr;
-  }
-}
-
-.three-one-grid {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 3fr 1fr;
-  }
-}
-
-.one-two-grid {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 2fr;
-  }
-}
-
-.two-one-grid {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 2fr 1fr;
-  }
-}
-
-.one-one-grid {
-  display: block;
-  @media only screen and (min-width: $tablet) {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-  }
-}
 //END UTILITY CLASSES //
