@@ -1,1 +1,78 @@
 // Do we need to serve a font? Add the @font-face styles here.
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * myriad-pro:
+ *   - http://typekit.com/eulas/00000000000000000001709a
+ * myriad-pro-semi-condensed:
+ *   - http://typekit.com/eulas/0000000000000000000170b3
+ *   - http://typekit.com/eulas/0000000000000000000170ae
+ *   - http://typekit.com/eulas/0000000000000000000170b0
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-01-22 19:49:17 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=fhf5kys&ht=tk&f=6801.6805.6806.6851&a=15564535&app=typekit&e=css");
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro";
+  src: url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tk-myriad-pro-semi-condensed {
+  font-family: "myriad-pro-semi-condensed", sans-serif;
+}
+.tk-myriad-pro {
+  font-family: "myriad-pro", sans-serif;
+}
