@@ -1,3 +1,11 @@
+$mobile: 430px;
+$tablet: 700px;
+$large-tablet: 920px;
+$laptop: 1300px;
+$large: 1600px;
+$x-large: 1800px;
+$widescreen: 2000px;
+
 .grid {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -273,7 +281,7 @@
 }
 
 .left-rule {
-  border-left: 3px solid $color__jfmd-cyan;
+  border-left: 3px solid --global-color-purple;
   padding-left: 1rem;
   margin: 1rem 0 2rem 10px;
 }
