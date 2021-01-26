@@ -626,8 +626,3 @@ function twentytwentyone_add_ie_class() {
 	</script>
 	<?php
 }
-add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
-
-* ACF Custom Block functions - JFMD.
-*/
-require get_template_directory() . '/inc/acf-blocks.php';
