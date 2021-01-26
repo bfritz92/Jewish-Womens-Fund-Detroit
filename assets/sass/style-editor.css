@@ -2,11 +2,90 @@
 /**
  * These styles should be loaded by the Block Editor only
  */
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * myriad-pro:
+ *   - http://typekit.com/eulas/00000000000000000001709a
+ * myriad-pro-semi-condensed:
+ *   - http://typekit.com/eulas/0000000000000000000170b3
+ *   - http://typekit.com/eulas/0000000000000000000170ae
+ *   - http://typekit.com/eulas/0000000000000000000170b0
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-01-22 19:49:17 UTC"}*/
+@import url("https://p.typekit.net/p.css?s=1&k=fhf5kys&ht=tk&f=6801.6805.6806.6851&a=15564535&app=typekit&e=css");
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro";
+  src: url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tk-myriad-pro-semi-condensed {
+  font-family: "myriad-pro-semi-condensed", sans-serif;
+}
+
+.tk-myriad-pro {
+  font-family: "myriad-pro", sans-serif;
+}
+
 /* Variables */
 :root {
   /* Font Family */
-  --global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
-  --global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  --global--font-primary: var(
+    --font-headings,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif
+  );
+  --global--font-secondary: var(
+    --font-base,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif
+  );
   /* Font Size */
   --global--font-size-base: 1.25rem;
   --global--font-size-xs: 1rem;
@@ -53,27 +132,38 @@
   --list--font-family: var(--global--font-secondary);
   --definition-term--font-family: var(--global--font-primary);
   /* Colors */
-  --global--color-black: #000;
+  --global--color-black: #4d4d4d;
   --global--color-dark-gray: #28303d;
   --global--color-gray: #39414d;
-  --global--color-light-gray: #f0f0f0;
+  --global--color-light-gray: #f2f2f2;
   --global--color-green: #d1e4dd;
   --global--color-blue: #d1dfe4;
-  --global--color-purple: #d1d1e4;
+  --global--color-purple: #48348d;
   --global--color-red: #e4d1d1;
   --global--color-orange: #e4dad1;
   --global--color-yellow: #eeeadd;
   --global--color-white: #fff;
-  --global--color-white-50: rgba(255, 255, 255, 0.5);
+  --global--color-white-50: rgba(
+    255,
+    255,
+    255,
+    0.5
+  );
   --global--color-white-90: rgba(255, 255, 255, 0.9);
-  --global--color-primary: var(--global--color-dark-gray);
+  --global--color-primary: var(
+    --global--color-dark-gray
+  );
   /* Body text color, site title, footer text color. */
   --global--color-secondary: var(--global--color-gray);
   /* Headings */
   --global--color-primary-hover: var(--global--color-primary);
-  --global--color-background: var(--global--color-green);
+  --global--color-background: var(
+    --global--color-green
+  );
   /* Mint, default body background */
-  --global--color-border: var(--global--color-primary);
+  --global--color-border: var(
+    --global--color-primary
+  );
   /* Used for borders (separators) */
   /* Spacing */
   --global--spacing-unit: 20px;
@@ -86,7 +176,9 @@
   --form--font-family: var(--global--font-secondary);
   --form--font-size: var(--global--font-size-sm);
   --form--line-height: var(--global--line-height-body);
-  --form--color-text: var(--global--color-dark-gray);
+  --form--color-text: var(
+    --global--color-dark-gray
+  );
   --form--color-ranged: var(--global--color-secondary);
   --form--label-weight: 500;
   --form--border-color: var(--global--color-secondary);
