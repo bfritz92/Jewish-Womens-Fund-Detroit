@@ -5,12 +5,8 @@ $baseline-unit: 10px;
 
 :root {
   /* Font Family */
-  --global--font-primary: var(
-    --font-headings,
-    "myriad-pro-condensed",
-    sans-serif;
-  );
-  --global--font-secondary: var(--font-base, "myriad-pro", sans-serif;);
+  --global--font-primary: "myriad-pro-condensed", sans-serif;
+  --global--font-secondary: "myriad-pro", sans-serif;
 
   /* Font Size */
   --global--font-size-base: 1.25rem; // 20px / 16px
