@@ -1,5 +1,36 @@
 /* Variables */
 @import url("https://p.typekit.net/p.css?s=1&k=fhf5kys&ht=tk&f=6801.6805.6806.6851&a=15564535&app=typekit&e=css");
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d44976/0000000000000000000170b3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/a78021/0000000000000000000170ae/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro-semi-condensed";
+  src: url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/44bde1/0000000000000000000170b0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "myriad-pro";
+  src: url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
 
 :root {
   /* Font Family */
@@ -12,8 +43,8 @@
   --global--font-size-md: 1.25rem;
   --global--font-size-lg: 1.5rem;
   --global--font-size-xl: 2.25rem;
-  --global--font-size-xxl: 4rem;
-  --global--font-size-xxxl: 5rem;
+  --global--font-size-xxl: 3rem;
+  --global--font-size-xxxl: 4rem;
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
   /* Line Height */
@@ -30,17 +61,17 @@
   --heading--font-size-h1: var(--global--font-size-page-title);
   --heading--letter-spacing-h6: 0.05em;
   --heading--letter-spacing-h5: 0.05em;
-  --heading--letter-spacing-h4: 0.023em;
-  --heading--letter-spacing-h3: 0.023em;
-  --heading--letter-spacing-h2: 0.023em;
-  --heading--letter-spacing-h1: 0.023em;
+  --heading--letter-spacing-h4: var(--global--letter-spacing);
+  --heading--letter-spacing-h3: var(--global--letter-spacing);
+  --heading--letter-spacing-h2: var(--global--letter-spacing);
+  --heading--letter-spacing-h1: var(--global--letter-spacing);
   --heading--line-height-h6: var(--global--line-height-heading);
   --heading--line-height-h5: var(--global--line-height-heading);
   --heading--line-height-h4: var(--global--line-height-heading);
   --heading--line-height-h3: var(--global--line-height-heading);
   --heading--line-height-h2: var(--global--line-height-heading);
   --heading--line-height-h1: var(--global--line-height-page-title);
-  --heading--font-weight: 700;
+  --heading--font-weight: normal;
   --heading--font-weight-page-title: 300;
   --heading--font-weight-strong: 600;
   /* Block: Latest posts */
@@ -62,16 +93,27 @@
   --global--color-orange: #e4dad1;
   --global--color-yellow: #eeeadd;
   --global--color-white: #fff;
-  --global--color-white-50: rgba(255, 255, 255, 0.5);
+  --global--color-white-50: rgba(
+    255,
+    255,
+    255,
+    0.5
+  );
   --global--color-white-90: rgba(255, 255, 255, 0.9);
-  --global--color-primary: var(--global--color-dark-gray);
+  --global--color-primary: var(
+    --global--color-purple
+  );
   /* Body text color, site title, footer text color. */
   --global--color-secondary: var(--global--color-gray);
   /* Headings */
   --global--color-primary-hover: var(--global--color-primary);
-  --global--color-background: var(--global--color-green);
+  --global--color-background: var(
+    --global--color-green
+  );
   /* Mint, default body background */
-  --global--color-border: var(--global--color-primary);
+  --global--color-border: var(
+    --global--color-light-gray
+  );
   /* Used for borders (separators) */
   /* Spacing */
   --global--spacing-unit: 20px;
@@ -84,7 +126,9 @@
   --form--font-family: var(--global--font-secondary);
   --form--font-size: var(--global--font-size-sm);
   --form--line-height: var(--global--line-height-body);
-  --form--color-text: var(--global--color-dark-gray);
+  --form--color-text: var(
+    --global--color-dark-gray
+  );
   --form--color-ranged: var(--global--color-secondary);
   --form--label-weight: 500;
   --form--border-color: var(--global--color-secondary);
@@ -212,8 +256,8 @@
 @media only screen and (min-width: 652px) {
   :root {
     --global--font-size-xl: 2.5rem;
-    --global--font-size-xxl: 6rem;
-    --global--font-size-xxxl: 9rem;
+    --global--font-size-xxl: 4rem;
+    --global--font-size-xxxl: 6rem;
     --heading--font-size-h3: 2rem;
     --heading--font-size-h2: 3rem;
   }
