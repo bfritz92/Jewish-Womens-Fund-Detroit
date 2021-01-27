@@ -195,8 +195,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-md: 1.25rem;
   --global--font-size-lg: 1.5rem;
   --global--font-size-xl: 2.25rem;
-  --global--font-size-xxl: 4rem;
-  --global--font-size-xxxl: 5rem;
+  --global--font-size-xxl: 3rem;
+  --global--font-size-xxxl: 4rem;
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
   /* Line Height */
@@ -253,7 +253,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   );
   --global--color-white-90: rgba(255, 255, 255, 0.9);
   --global--color-primary: var(
-    --global--color-dark-gray
+    --global--color-purple
   );
   /* Body text color, site title, footer text color. */
   --global--color-secondary: var(--global--color-gray);
@@ -264,7 +264,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   );
   /* Mint, default body background */
   --global--color-border: var(
-    --global--color-primary
+    --global--color-light-gray
   );
   /* Used for borders (separators) */
   /* Spacing */
@@ -408,8 +408,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 @media only screen and (min-width: 652px) {
   :root {
     --global--font-size-xl: 2.5rem;
-    --global--font-size-xxl: 6rem;
-    --global--font-size-xxxl: 9rem;
+    --global--font-size-xxl: 4rem;
+    --global--font-size-xxxl: 6rem;
     --heading--font-size-h3: 2rem;
     --heading--font-size-h2: 3rem;
   }
