@@ -68,8 +68,8 @@ $baseline-unit: 10px;
   --global--font-size-md: 1.25rem; // 20px / 16px
   --global--font-size-lg: 1.5rem; // 24px / 16px
   --global--font-size-xl: 2.25rem; // 36px / 16px
-  --global--font-size-xxl: 3rem; // 64px / 16px
-  --global--font-size-xxxl: 4rem; // 80px / 16px
+  --global--font-size-xxl: 2.5rem; // 64px / 16px
+  --global--font-size-xxxl: 3rem; // 80px / 16px
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
 
@@ -307,8 +307,8 @@ $baseline-unit: 10px;
   // Not using the mixin because it's compiled after this file
   :root {
     --global--font-size-xl: 2.5rem; // 40px / 16px
-    --global--font-size-xxl: 4rem; // 96px / 16px
-    --global--font-size-xxxl: 6rem; // 144px / 16px
+    --global--font-size-xxl: 3rem; // 96px / 16px
+    --global--font-size-xxxl: 4rem; // 144px / 16px
     --heading--font-size-h3: 2rem; // 32px / 16px
     --heading--font-size-h2: 3rem; // 48px / 16px
   }
