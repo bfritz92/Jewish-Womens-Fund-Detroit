@@ -30,10 +30,10 @@
   --heading--font-size-h1: var(--global--font-size-page-title);
   --heading--letter-spacing-h6: 0.05em;
   --heading--letter-spacing-h5: 0.05em;
-  --heading--letter-spacing-h4: var(--global--letter-spacing);
-  --heading--letter-spacing-h3: var(--global--letter-spacing);
-  --heading--letter-spacing-h2: var(--global--letter-spacing);
-  --heading--letter-spacing-h1: var(--global--letter-spacing);
+  --heading--letter-spacing-h4: 0.023em;
+  --heading--letter-spacing-h3: 0.023em;
+  --heading--letter-spacing-h2: 0.023em;
+  --heading--letter-spacing-h1: 0.023em;
   --heading--line-height-h6: var(--global--line-height-heading);
   --heading--line-height-h5: var(--global--line-height-heading);
   --heading--line-height-h4: var(--global--line-height-heading);
