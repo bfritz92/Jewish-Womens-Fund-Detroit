@@ -34,12 +34,8 @@
 
 :root {
   /* Font Family */
-  --global--font-primary: var(
-    --font-headings,
-    myriad-pro-semi-condensed,
-    sans-serif;
-  );
-  --global--font-secondary: var(--font-base, myriad-pro, sans-serif;);
+  --global--font-primary: "myriad-pro-semi-condensed", sans-serif;
+  --global--font-secondary: "myriad-pro", sans-serif;
   /* Font Size */
   --global--font-size-base: 1.25rem;
   --global--font-size-xs: 1rem;
