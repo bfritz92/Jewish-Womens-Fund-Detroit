@@ -303,7 +303,7 @@ $baseline-unit: 10px;
   }
 }
 
-@media only screen and (min-width: 652px) {
+@media only screen and (min-width: 822px) {
   // Not using the mixin because it's compiled after this file
   :root {
     --global--font-size-xl: 2.5rem; // 40px / 16px
