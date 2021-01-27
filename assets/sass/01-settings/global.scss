@@ -7,28 +7,10 @@ $baseline-unit: 10px;
   /* Font Family */
   --global--font-primary: var(
     --font-headings,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    "Helvetica Neue",
-    sans-serif
+    "myriad-pro-condensed",
+    sans-serif;
   );
-  --global--font-secondary: var(
-    --font-base,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    "Helvetica Neue",
-    sans-serif
-  );
+  --global--font-secondary: var(--font-base, "myriad-pro", sans-serif;);
 
   /* Font Size */
   --global--font-size-base: 1.25rem; // 20px / 16px
