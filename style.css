@@ -2033,7 +2033,7 @@ input[type="reset"]:hover,
   margin-left: 15px;
 }
 
-.feature-grants .wp-block-column .grant-logo {
+.feature-grants .wp-block-column .grant--logo {
   max-width: 150px;
 }
 
@@ -2779,6 +2779,7 @@ dd {
 
 .wp-block-media-text .wp-block-media-text__content {
   padding: var(--global--spacing-horizontal);
+  max-width: 500px;
 }
 
 @media only screen and (min-width: 592px) {
