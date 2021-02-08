@@ -109,11 +109,11 @@
       margin: 0;
     }
     .grant--title {
-      margin-left: 15px;
+      margin: 15px;
       margin-bottom: 0;
     }
     .grant--info {
-      margin-left: 15px;
+      margin: 15px;
       padding: 0;
       list-style-type: none;
       display: flex;
@@ -127,10 +127,11 @@
       }
     }
     p {
-      margin-left: 15px;
+      margin: 15px;
     }
     .grant--logo {
-      max-width: 150px;
+      max-width: 200px;
+      margin: 15px;
     }
   }
 }
