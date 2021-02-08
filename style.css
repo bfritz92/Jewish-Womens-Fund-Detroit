@@ -1986,7 +1986,7 @@ input[type="reset"]:hover,
 
 .feature-grants .wp-block-column {
   border: var(--global--color-purple) 3px solid;
-  margin: 15px 20px 15px 15px;
+  padding: 15px 20px 15px 15px;
 }
 
 .feature-grants .wp-block-column hr {
@@ -1997,6 +1997,7 @@ input[type="reset"]:hover,
 
 .feature-grants .wp-block-column .grant--title {
   margin-left: 15px;
+  margin-bottom: 0;
 }
 
 .feature-grants .wp-block-column .grant--info {
@@ -2017,6 +2018,10 @@ input[type="reset"]:hover,
 
 .feature-grants .wp-block-column .grant--info strong {
   color: var(--global--color-purple);
+}
+
+.feature-grants .wp-block-column p {
+  margin-left: 15px;
 }
 
 .wp-block-cover,

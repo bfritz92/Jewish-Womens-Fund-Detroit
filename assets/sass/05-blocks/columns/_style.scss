@@ -99,7 +99,7 @@
 .feature-grants {
   .wp-block-column {
     border: var(--global--color-purple) 3px solid;
-    margin: 15px 20px 15px 15px;
+    padding: 15px 20px 15px 15px;
     hr {
       border-width: 3px;
       border-color: var(--global--color-purple);
@@ -107,6 +107,7 @@
     }
     .grant--title {
       margin-left: 15px;
+      margin-bottom: 0;
     }
     .grant--info {
       margin-left: 15px;
@@ -118,6 +119,9 @@
       strong {
         color: var(--global--color-purple);
       }
+    }
+    p {
+      margin-left: 15px;
     }
   }
 }
