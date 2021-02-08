@@ -96,9 +96,9 @@
   }
 }
 
-.wp-block-group.feature-grants {
+.feature-grants {
   max-width: var(--responsive--alignwide-width);
-  .wp-block-group__inner-container .wp-block-columns .wp-block-column {
+  .wp-block-columns .wp-block-column {
     border: var(--global--color-purple) 3px solid;
     margin: 0 20px;
     hr {

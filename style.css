@@ -1984,21 +1984,21 @@ input[type="reset"]:hover,
   padding-right: var(--global--spacing-unit);
 }
 
-.wp-block-group.feature-grants {
+.feature-grants {
   max-width: var(--responsive--alignwide-width);
 }
 
-.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column {
+.feature-grants .wp-block-columns .wp-block-column {
   border: var(--global--color-purple) 3px solid;
   margin: 0 20px;
 }
 
-.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column hr {
+.feature-grants .wp-block-columns .wp-block-column hr {
   border-width: 3px;
   border-color: var(--global--color-purple);
 }
 
-.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column .grant-info {
+.feature-grants .wp-block-columns .wp-block-column .grant-info {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2008,7 +2008,7 @@ input[type="reset"]:hover,
           justify-content: space-between;
 }
 
-.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column .grant-info strong {
+.feature-grants .wp-block-columns .wp-block-column .grant-info strong {
   color: var(--global--color-purple);
 }
 
