@@ -199,6 +199,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-xxxl: 3rem;
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
+  --global--heading-letter-spacing: 1px;
   /* Line Height */
   --global--line-height-body: 1.3;
   --global--line-height-heading: 1;
@@ -213,10 +214,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --heading--font-size-h1: var(--global--font-size-page-title);
   --heading--letter-spacing-h6: 0.05em;
   --heading--letter-spacing-h5: 0.05em;
-  --heading--letter-spacing-h4: var(--global--letter-spacing);
-  --heading--letter-spacing-h3: var(--global--letter-spacing);
-  --heading--letter-spacing-h2: var(--global--letter-spacing);
-  --heading--letter-spacing-h1: var(--global--letter-spacing);
+  --heading--letter-spacing-h4: var(--global--heading-letter-spacing);
+  --heading--letter-spacing-h3: var(--global--heading-letter-spacing);
+  --heading--letter-spacing-h2: var(--global--heading-letter-spacing);
+  --heading--letter-spacing-h1: var(--global--heading-letter-spacing);
   --heading--line-height-h6: var(--global--line-height-heading);
   --heading--line-height-h5: var(--global--line-height-heading);
   --heading--line-height-h4: var(--global--line-height-heading);
@@ -1987,6 +1988,10 @@ input[type="reset"]:hover,
 .feature-grants .wp-block-column {
   border: var(--global--color-purple) 3px solid;
   padding: 15px 20px 15px 15px;
+}
+
+.feature-grants .wp-block-column h4 {
+  margin-bottom: 0;
 }
 
 .feature-grants .wp-block-column hr {
