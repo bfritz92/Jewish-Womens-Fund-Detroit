@@ -97,18 +97,24 @@
 }
 
 .feature-grants {
-  max-width: var(--responsive--alignwide-width);
   .wp-block-column {
     border: var(--global--color-purple) 3px solid;
-    margin: 0 20px;
+    margin: 15px 20px 15px 15px;
     hr {
       border-width: 3px;
       border-color: var(--global--color-purple);
+      margin: 0;
     }
-    .grant-info {
+    .grant--title {
+      margin-left: 15px;
+    }
+    .grant--info {
+      margin-left: 15px;
+      padding: 0;
       list-style-type: none;
       display: flex;
       justify-content: space-between;
+      flex-direction: row;
       strong {
         color: var(--global--color-purple);
       }
