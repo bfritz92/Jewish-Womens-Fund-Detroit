@@ -1963,6 +1963,34 @@ input[type="reset"]:hover,
   padding-right: var(--global--spacing-unit);
 }
 
+.wp-block-group.feature-grants {
+  max-width: var(--responsive--alignwide-width);
+}
+
+.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column {
+  border: var(--global--color-purple) 3px solid;
+  margin: 0 20px;
+}
+
+.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column hr {
+  border-width: 3px;
+  border-color: var(--global--color-purple);
+}
+
+.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column .grant-info {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wp-block-group.feature-grants .wp-block-group__inner-container .wp-block-columns .wp-block-column .grant-info strong {
+  color: var(--global--color-purple);
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
@@ -3920,7 +3948,7 @@ a.custom-logo-link {
     display: none;
   }
   .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo img {
-    max-height: calc( var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit)) + 1.7em);
+    max-height: calc(var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit)) + 1.7em);
   }
   .site-header.has-logo.has-title-and-tagline {
     -webkit-box-align: start;
@@ -3948,11 +3976,11 @@ a.custom-logo-link {
   body:not(.primary-navigation-open) .site-header.has-logo.has-title-and-tagline .menu-button-container {
     position: relative;
     padding-top: 0;
-    margin-top: calc( 0px - var(--button--padding-vertical) + (0.25 * var(--global--spacing-unit)));
+    margin-top: calc(0px - var(--button--padding-vertical) + (0.25 * var(--global--spacing-unit)));
   }
   body:not(.primary-navigation-open) .site-header.has-logo.has-title-and-tagline .menu-button-container #primary-mobile-menu {
-    padding-left: calc( var(--global--spacing-horizontal) * 0.6 - 4.5px);
-    padding-right: calc( var(--global--spacing-horizontal) * 0.6 - 4.5px);
+    padding-left: calc(var(--global--spacing-horizontal) * 0.6 - 4.5px);
+    padding-right: calc(var(--global--spacing-horizontal) * 0.6 - 4.5px);
     margin-right: calc(0px - var(--global--spacing-horizontal) * 0.6);
   }
   .site-header:not(.has-logo).has-title-and-tagline .site-branding {
