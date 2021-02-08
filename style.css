@@ -2775,9 +2775,8 @@ dd {
 }
 
 .wp-block-media-text.has-media-on-the-right .wp-block-media-text__content {
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .wp-block-media-text a:focus img {
