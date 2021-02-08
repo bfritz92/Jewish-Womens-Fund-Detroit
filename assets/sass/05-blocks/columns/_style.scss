@@ -119,9 +119,15 @@
       strong {
         color: var(--global--color-purple);
       }
+      li {
+        padding-right: 15px;
+      }
     }
     p {
       margin-left: 15px;
+    }
+    .grant-logo {
+      max-width: 150px;
     }
   }
 }

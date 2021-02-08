@@ -2020,8 +2020,16 @@ input[type="reset"]:hover,
   color: var(--global--color-purple);
 }
 
+.feature-grants .wp-block-column .grant--info li {
+  padding-right: 15px;
+}
+
 .feature-grants .wp-block-column p {
   margin-left: 15px;
+}
+
+.feature-grants .wp-block-column .grant-logo {
+  max-width: 150px;
 }
 
 .wp-block-cover,
