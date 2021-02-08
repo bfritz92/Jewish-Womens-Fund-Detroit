@@ -1988,17 +1988,17 @@ input[type="reset"]:hover,
   max-width: var(--responsive--alignwide-width);
 }
 
-.feature-grants .wp-block-columns .wp-block-column {
+.feature-grants .wp-block-column {
   border: var(--global--color-purple) 3px solid;
   margin: 0 20px;
 }
 
-.feature-grants .wp-block-columns .wp-block-column hr {
+.feature-grants .wp-block-column hr {
   border-width: 3px;
   border-color: var(--global--color-purple);
 }
 
-.feature-grants .wp-block-columns .wp-block-column .grant-info {
+.feature-grants .wp-block-column .grant-info {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2008,7 +2008,7 @@ input[type="reset"]:hover,
           justify-content: space-between;
 }
 
-.feature-grants .wp-block-columns .wp-block-column .grant-info strong {
+.feature-grants .wp-block-column .grant-info strong {
   color: var(--global--color-purple);
 }
 
