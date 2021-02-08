@@ -2001,12 +2001,12 @@ input[type="reset"]:hover,
 }
 
 .feature-grants .wp-block-column .grant--title {
-  margin-left: 15px;
+  margin: 15px;
   margin-bottom: 0;
 }
 
 .feature-grants .wp-block-column .grant--info {
-  margin-left: 15px;
+  margin: 15px;
   padding: 0;
   list-style-type: none;
   display: -webkit-box;
@@ -2030,11 +2030,12 @@ input[type="reset"]:hover,
 }
 
 .feature-grants .wp-block-column p {
-  margin-left: 15px;
+  margin: 15px;
 }
 
 .feature-grants .wp-block-column .grant--logo {
-  max-width: 150px;
+  max-width: 200px;
+  margin: 15px;
 }
 
 .wp-block-cover,
