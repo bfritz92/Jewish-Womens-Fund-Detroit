@@ -2779,6 +2779,11 @@ dd {
       justify-self: end;
 }
 
+.wp-block-media-text.left-rule .wp-block-media-text__content {
+  margin-left: var(--global--spacing-vetrical);
+  border-left: 3px solid var(--global--color-purple);
+}
+
 .wp-block-media-text a:focus img {
   outline-offset: -1px;
 }
@@ -4050,6 +4055,9 @@ a.custom-logo-link {
 .site-footer {
   padding-top: 0;
   padding-bottom: calc(1.7 * var(--global--spacing-vertical));
+  background-color: var(--global--color-purple);
+  color: #fff;
+  max-width: var(--responsive--alignfull-width);
 }
 
 .no-widgets .site-footer {

@@ -3,7 +3,9 @@
   padding-top: 0;
   padding-bottom: calc(1.7 * var(--global--spacing-vertical));
   @extend %responsive-alignwide-width;
-
+  background-color: var(--global--color-purple);
+  color: #fff;
+  max-width: var(--responsive--alignfull-width);
   // Increase the top vertical spacing when there is no widget area.
   .no-widgets & {
     margin-top: calc(6 * var(--global--spacing-vertical));

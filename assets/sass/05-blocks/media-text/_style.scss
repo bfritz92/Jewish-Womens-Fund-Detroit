@@ -6,6 +6,10 @@
   &.has-media-on-the-right .wp-block-media-text__content {
     justify-self: end;
   }
+  &.left-rule .wp-block-media-text__content {
+    margin-left: var(--global--spacing-vetrical);
+    border-left: 3px solid var(--global--color-purple);
+  }
   a:focus img {
     outline-offset: -1px;
   }
