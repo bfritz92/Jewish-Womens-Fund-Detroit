@@ -7,7 +7,7 @@
   row-gap: var(
     --global--spacing-vertical
   ); // Add space in case the menu wraps below the site branding.
-
+  border-bottom: var(--global--color-primary) 2px solid;
   .wp-custom-logo & {
     align-items: center;
   }

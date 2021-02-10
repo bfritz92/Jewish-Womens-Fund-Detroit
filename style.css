@@ -3873,6 +3873,7 @@ table.wp-calendar-table caption {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: var(--global--spacing-vertical);
+  border-bottom: var(--global--color-primary) 2px solid;
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
 	} */
