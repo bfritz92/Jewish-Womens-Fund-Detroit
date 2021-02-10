@@ -332,7 +332,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --branding--logo--max-width-mobile: 96px;
   --branding--logo--max-height-mobile: 96px;
   /* Main navigation */
-  --primary-nav--font-family: var(--global--font-secondary);
+  --primary-nav--font-family: var(--global--font-primary);
   --primary-nav--font-family-mobile: var(--global--font-primary);
   --primary-nav--font-size: var(--global--font-size-md);
   --primary-nav--font-size-sub-menu: var(--global--font-size-xs);
