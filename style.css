@@ -898,13 +898,7 @@ template {
 
 .site-header {
   padding-top: calc(0.75 * var(--global--spacing-vertical));
-  padding-bottom: calc(2 * var(--global--spacing-vertical));
-}
-
-@media only screen and (min-width: 482px) {
-  .site-header {
-    padding-bottom: calc(3 * var(--global--spacing-vertical));
-  }
+  padding-bottom: 20px;
 }
 
 /**
@@ -3913,8 +3907,9 @@ table.wp-calendar-table caption {
 }
 
 .site-title {
-  color: var(--branding--color-link);
+  color: var(--global--color-primary);
   font-family: var(--branding--title--font-family);
+  font-weight: 700;
   font-size: var(--branding--title--font-size-mobile);
   letter-spacing: normal;
   text-transform: var(--branding--title--text-transform);
@@ -3968,6 +3963,7 @@ a.custom-logo-link {
 
 .site-header > .site-logo {
   width: 100%;
+  padding-bottom: calc(var(--global--spacing-vertical) * 1.5);
   border-bottom: 1px solid;
   text-align: center;
 }
