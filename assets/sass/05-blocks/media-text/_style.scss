@@ -24,7 +24,7 @@
       margin-top: calc(0.666 * var(--global--spacing-vertical));
       margin-bottom: calc(0.666 * var(--global--spacing-vertical));
 
-      @include media(mobile) {
+      @tmedia (mobile) {
         margin-top: var(--global--spacing-vertical);
         margin-bottom: var(--global--spacing-vertical);
       }
