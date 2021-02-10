@@ -628,9 +628,6 @@ function twentytwentyone_add_ie_class() {
 }
 
 add_action( 'wp_enqueue_scripts', function() {
-
 	$styles = wp_styles();
-
-	$styles->add_data( 'twentytwenty-style', 'after', array() );
-
+	$styles->add_data( 'twenty-twenty-one-style', 'after', array() );
 }, 20 );
