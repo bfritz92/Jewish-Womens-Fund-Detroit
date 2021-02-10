@@ -21,12 +21,13 @@
 // Footer Branding
 .site-footer > .site-info {
   padding-top: var(--global--spacing-vertical);
-  color: var(--footer--color-text);
+  color: #fff;
   font-family: var(--footer--font-family);
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   border-top: 3px solid var(--global--color-border);
   max-width: var(--responsive--alignwide-width);
+  margin: auto;
 
   .site-name {
     text-transform: var(--branding--title--text-transform);
