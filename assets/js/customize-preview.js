@@ -44,13 +44,13 @@
 			}
 
 			// Generate the styles.
-			styles += '--global--color-primary:' + textColor + ';';
-			styles += '--global--color-secondary:' + textColor + ';';
-			styles += '--global--color-background:' + to + ';';
+			//styles += '--global--color-primary:' + textColor + ';';
+			//styles += '--global--color-secondary:' + textColor + ';';
+			//styles += '--global--color-background:' + to + ';';
 
-			styles += '--button--color-background:' + textColor + ';';
-			styles += '--button--color-text:' + to + ';';
-			styles += '--button--color-text-hover:' + textColor + ';';
+			//styles += '--button--color-background:' + textColor + ';';
+			//styles += '--button--color-text:' + to + ';';
+			//styles += '--button--color-text-hover:' + textColor + ';';
 
 			styles += '--table--stripes-border-color:' + tableColor + ';';
 			styles += '--table--stripes-background-color:' + tableColor + ';';
