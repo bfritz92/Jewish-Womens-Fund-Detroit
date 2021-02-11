@@ -54,3 +54,19 @@
     border: calc(3 * var(--separator--height)) solid var(--global--color-border);
   }
 }
+
+.page-splash {
+  &--img {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    img {
+      max-height: 400px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &--title {
+    color: var(--global--color-white);
+  }
+}

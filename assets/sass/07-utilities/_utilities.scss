@@ -283,6 +283,9 @@ $widescreen: 2000px;
 .left-rule {
   border-left: 3px solid --global-color-purple;
   padding-left: 1rem;
+  figure.wp-block-media-text__media {
+    padding-right: 25px;
+  }
 }
 .left {
   text-align: left;

@@ -2869,6 +2869,24 @@ dd {
   border: calc(3 * var(--separator--height)) solid var(--global--color-border);
 }
 
+.page-splash--img {
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.page-splash--img img {
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.page-splash--title {
+  color: var(--global--color-white);
+}
+
 .wp-block-navigation .wp-block-navigation-link {
   padding: 0;
 }
@@ -6264,6 +6282,10 @@ footer {
 .left-rule {
   border-left: 3px solid --global-color-purple;
   padding-left: 1rem;
+}
+
+.left-rule figure.wp-block-media-text__media {
+  padding-right: 25px;
 }
 
 .left {
