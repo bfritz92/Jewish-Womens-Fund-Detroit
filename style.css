@@ -2820,7 +2820,6 @@ dd {
 }
 
 .wp-block-media-text.left-rule .wp-block-media-text__content {
-  margin-left: var(--global--spacing-vertical);
   border-left: 3px solid var(--global--color-purple);
 }
 
