@@ -225,7 +225,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --heading--line-height-h3: var(--global--line-height-heading);
   --heading--line-height-h2: var(--global--line-height-heading);
   --heading--line-height-h1: var(--global--line-height-page-title);
-  --heading--font-weight: normal;
+  --heading--font-weight: 700;
   --heading--font-weight-page-title: 300;
   --heading--font-weight-strong: 600;
   /* Block: Latest posts */
@@ -2057,7 +2057,7 @@ input[type="reset"]:hover,
   padding: 15px;
 }
 
-.pre-footer--events--item li.title h3 {
+.pre-footer--events--item li.title h3 a {
   font-weight: 700;
 }
 
