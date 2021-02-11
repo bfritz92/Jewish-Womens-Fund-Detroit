@@ -2869,6 +2869,11 @@ dd {
   border: calc(3 * var(--separator--height)) solid var(--global--color-border);
 }
 
+.page-splash {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
 .page-splash--img {
   margin-bottom: 0;
   padding-top: 0;
