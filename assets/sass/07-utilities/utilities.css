@@ -253,7 +253,6 @@
 .left-rule {
   border-left: 3px solid --global-color-purple;
   padding-left: 1rem;
-  margin: 1rem 0 2rem 10px;
 }
 
 .left {
