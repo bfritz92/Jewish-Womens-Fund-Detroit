@@ -2044,7 +2044,7 @@ input[type="reset"]:hover,
 
 .pre-footer--news--item {
   list-style: none;
-  padding-right: 0;
+  padding-left: 0;
 }
 
 .pre-footer--news--item h3 {
@@ -2057,8 +2057,23 @@ input[type="reset"]:hover,
   padding: 15px;
 }
 
-.pre-footer--events--item h3 {
+.pre-footer--events--item h3.title {
   font-weight: 700;
+}
+
+.pre-footer--events--item li.date {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.pre-footer--events--item li p {
+  line-height: 1.1;
+  padding-bottom: 15px;
+}
+
+.pre-footer--events--item li:last-child a {
+  text-align: right;
 }
 
 .wp-block-cover,

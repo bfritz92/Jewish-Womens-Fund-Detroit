@@ -143,7 +143,7 @@
     border-left: var(--global--color-primary);
     &--item {
       list-style: none;
-      padding-right: 0;
+      padding-left: 0;
       h3 {
         font-weight: 700;
       }
@@ -154,8 +154,20 @@
       list-style: none;
       border: var(--global--color-primary) 2px solid;
       padding: 15px;
-      h3 {
+      h3.title {
         font-weight: 700;
+      }
+      li.date {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+      }
+      li p {
+        line-height: 1.1;
+        padding-bottom: 15px;
+      }
+      li:last-child a {
+        text-align: right;
       }
     }
   }
