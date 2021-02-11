@@ -5131,6 +5131,7 @@ h1.page-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-weight: 700;
   }
   .primary-navigation .primary-menu-container > ul > .menu-item > a {
     padding-left: var(--primary-nav--padding);

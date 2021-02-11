@@ -368,6 +368,7 @@
       // Top-level Menu Item
       > ul > .menu-item {
         display: flex;
+        font-weight: 700;
 
         > a {
           padding-left: var(--primary-nav--padding);
