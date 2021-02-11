@@ -97,9 +97,11 @@
 }
 
 .feature-grants {
+  grid-gap: 25px;
   .wp-block-column {
     border: var(--global--color-purple) 3px solid;
     padding: 15px 20px 15px 15px;
+
     h4 {
       margin-bottom: 0;
     }
@@ -109,16 +111,15 @@
       margin: 0;
     }
     .grant--title {
-      margin: 15px;
       margin-bottom: 0;
     }
     .grant--info {
-      margin: 15px;
       padding: 0;
       list-style-type: none;
       display: flex;
       justify-content: space-between;
       flex-direction: row;
+      flex-wrap: wrap;
       strong {
         color: var(--global--color-purple);
       }
