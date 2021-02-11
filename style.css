@@ -2057,7 +2057,7 @@ input[type="reset"]:hover,
   padding: 15px;
 }
 
-.pre-footer--events--item h3.title {
+.pre-footer--events--item li.title h3 {
   font-weight: 700;
 }
 
@@ -2070,6 +2070,7 @@ input[type="reset"]:hover,
 .pre-footer--events--item li p {
   line-height: 1.1;
   padding-bottom: 15px;
+  font-size: small;
 }
 
 .pre-footer--events--item li:last-child a {
