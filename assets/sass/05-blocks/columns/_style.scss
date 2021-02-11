@@ -136,3 +136,20 @@
     }
   }
 }
+
+.pre-footer {
+  &--news {
+    &--item {
+      list-style: none;
+    }
+  }
+  &--events {
+    &--item {
+      border: var(--global--color-primary) 2px solid;
+      padding: 15px;
+      h3 {
+        font-weight: 700;
+      }
+    }
+  }
+}

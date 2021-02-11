@@ -2037,6 +2037,19 @@ input[type="reset"]:hover,
   margin: 15px;
 }
 
+.pre-footer--news--item {
+  list-style: none;
+}
+
+.pre-footer--events--item {
+  border: var(--global--color-primary) 2px solid;
+  padding: 15px;
+}
+
+.pre-footer--events--item h3 {
+  font-weight: 700;
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
