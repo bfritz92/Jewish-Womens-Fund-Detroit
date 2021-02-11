@@ -139,12 +139,19 @@
 
 .pre-footer {
   &--news {
+    padding-left: 15px;
+    border-left: var(--global--color-primary);
     &--item {
       list-style: none;
+      padding-right: 0;
+      h3 {
+        font-weight: 700;
+      }
     }
   }
   &--events {
     &--item {
+      list-style: none;
       border: var(--global--color-primary) 2px solid;
       padding: 15px;
       h3 {
