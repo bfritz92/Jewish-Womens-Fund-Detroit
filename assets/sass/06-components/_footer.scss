@@ -6,16 +6,6 @@
   background-color: var(--global--color-purple);
   color: #fff;
   max-width: var(--responsive--alignfull-width);
-  // Increase the top vertical spacing when there is no widget area.
-  .no-widgets & {
-    margin-top: calc(6 * var(--global--spacing-vertical));
-  }
-
-  @include media(mobile-only) {
-    .no-widgets & {
-      margin-top: calc(3 * var(--global--spacing-vertical));
-    }
-  }
 }
 
 // Footer Branding

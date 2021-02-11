@@ -4113,16 +4113,6 @@ a.custom-logo-link {
   max-width: var(--responsive--alignfull-width);
 }
 
-.no-widgets .site-footer {
-  margin-top: calc(6 * var(--global--spacing-vertical));
-}
-
-@media only screen and (max-width: 481px) {
-  .no-widgets .site-footer {
-    margin-top: calc(3 * var(--global--spacing-vertical));
-  }
-}
-
 .site-footer > .site-info {
   padding-top: var(--global--spacing-vertical);
   color: #fff;
@@ -4300,10 +4290,6 @@ h1.entry-title {
   padding-top: var(--global--spacing-unit);
   padding-bottom: calc(3 * var(--global--spacing-vertical));
   border-bottom: var(--separator--height) solid var(--separator--border-color);
-}
-
-body:not(.single) .site-main > article:last-of-type .entry-footer {
-  border-bottom: var(--separator--height) solid transparent;
 }
 
 .single .site-main > article > .entry-footer {
