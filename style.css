@@ -4875,7 +4875,6 @@ h1.page-title {
   padding-left: var(--global--spacing-unit);
   padding-right: var(--global--spacing-unit);
   padding-bottom: var(--global--spacing-horizontal);
-  background-color: var(--global--color-background);
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   -webkit-transform: translateY(var(--global--spacing-vertical));
