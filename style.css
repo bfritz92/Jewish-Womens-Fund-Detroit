@@ -4857,6 +4857,7 @@ h1.page-title {
 .primary-navigation {
   color: var(--primary-nav--color-text);
   font-size: var(--primary-nav--font-size);
+  font-weight: 700;
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 0;
