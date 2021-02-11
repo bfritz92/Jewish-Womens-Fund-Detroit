@@ -4016,14 +4016,16 @@ a.custom-logo-link {
 }
 
 .site-logo {
+  /*
   margin: calc(var(--global--spacing-vertical) / 2) 0;
-}
 
-.site-header > .site-logo {
-  width: 100%;
-  padding-bottom: calc(var(--global--spacing-vertical) * 1.5);
-  border-bottom: 1px solid;
-  text-align: center;
+  .site-header > & {
+    width: 100%;
+    padding-bottom: calc(var(--global--spacing-vertical) * 1.5);
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+*/
 }
 
 .site-logo .custom-logo {
