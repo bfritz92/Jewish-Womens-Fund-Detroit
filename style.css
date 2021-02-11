@@ -4847,7 +4847,7 @@ h1.page-title {
 .primary-navigation-open .menu-button-container {
   width: 100%;
   z-index: 500;
-  background-color: var(--global--color-background);
+  background-color: var(--global--color-white);
 }
 
 .primary-navigation-open .menu-button-container #primary-mobile-menu {
