@@ -3939,6 +3939,12 @@ table.wp-calendar-table caption {
   }
 }
 
+#masthead {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .site-branding {
   color: var(--branding--color-primary);
   margin-right: 140px;
@@ -4773,7 +4779,7 @@ h1.page-title {
 
 .menu-button-container #primary-mobile-menu {
   margin-left: auto;
-  padding: calc(var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
+  padding: calc( var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
 }
 
 @media only screen and (max-width: 481px) {
@@ -4845,9 +4851,6 @@ h1.page-title {
 }
 
 .primary-navigation {
-  position: absolute;
-  top: var(--global--admin-bar--height);
-  right: 0;
   color: var(--primary-nav--color-text);
   font-size: var(--primary-nav--font-size);
   line-height: 1.15;
@@ -4863,13 +4866,13 @@ h1.page-title {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: calc(var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
+  padding-top: calc( var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
   padding-left: var(--global--spacing-unit);
   padding-right: var(--global--spacing-unit);
   padding-bottom: var(--global--spacing-horizontal);
   background-color: var(--global--color-background);
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   -webkit-transform: translateY(var(--global--spacing-vertical));
           transform: translateY(var(--global--spacing-vertical));
 }

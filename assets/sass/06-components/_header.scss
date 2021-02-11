@@ -1,5 +1,8 @@
 // Site header
 .site-header {
+  &:before {
+    content: none;
+  }
   @extend %responsive-alignwide-width;
   display: flex;
   align-items: center;
@@ -19,6 +22,9 @@
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
 	} */
+}
+#masthead {
+  justify-content: space-between;
 }
 
 // Site branding
