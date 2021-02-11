@@ -46,6 +46,7 @@
 
 // Site title
 .site-title {
+  display: none;
   color: var(--global--color-primary);
   font-family: var(--branding--title--font-family);
   font-weight: 700;
