@@ -2057,7 +2057,7 @@ input[type="reset"]:hover,
   padding: 15px;
 }
 
-.pre-footer--events--item li.title h3 a {
+.pre-footer--events--item h3 {
   font-weight: 700;
 }
 
