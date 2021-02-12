@@ -2870,18 +2870,18 @@ dd {
 }
 
 /*PAGE SPLASH */
-.page-splash {
+.entry-content div.wp-block-group.page-splash {
   margin-bottom: 0;
   padding-top: 0;
 }
 
-.page-splash--img {
+.entry-content div.wp-block-group.page-splash--img {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
 }
 
-.page-splash--img img {
+.entry-content div.wp-block-group.page-splash--img img {
   max-height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -2889,7 +2889,7 @@ dd {
      object-position: center;
 }
 
-.page-splash--title {
+.entry-content div.wp-block-group.page-splash--title {
   color: var(--global--color-white);
 }
 
