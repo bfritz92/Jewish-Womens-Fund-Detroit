@@ -2891,6 +2891,15 @@ dd {
 
 .entry-content div.wp-block-group.page-splash .page-splash--title {
   color: var(--global--color-white);
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.trustee-tier {
+  max-width: 800px;
+  -ms-grid-columns: 40% 1fr;
+      grid-template-columns: 40% 1fr;
 }
 
 .wp-block-navigation .wp-block-navigation-link {
