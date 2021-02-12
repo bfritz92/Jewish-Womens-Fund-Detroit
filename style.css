@@ -2896,7 +2896,7 @@ dd {
   font-size: 30px;
 }
 
-.trustee-tier {
+.entry-content .trustee-tier {
   max-width: 800px;
   -ms-grid-columns: 40% 1fr;
       grid-template-columns: 40% 1fr;
