@@ -897,6 +897,10 @@ template {
   margin-right: auto;
 }
 
+.site-main {
+  padding-top: 0;
+}
+
 .site-header {
   padding-top: calc(0.75 * var(--global--spacing-vertical));
   padding-bottom: 20px;
@@ -934,7 +938,6 @@ template {
  */
 .entry-header,
 .post-thumbnail,
-.entry-content,
 .entry-footer,
 .author-bio {
   margin-top: var(--global--spacing-vertical);
