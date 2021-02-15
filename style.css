@@ -2896,6 +2896,17 @@ dd {
   font-size: 30px;
 }
 
+.entry-content div.wp-block-group.page-splash .page-splash--title::before {
+  content: "";
+  background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/JWF-Flame-white.svg);
+  height: 27px;
+  width: 28px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3px;
+}
+
 .entry-content .wp-block-group .trustee-tier {
   max-width: 800px;
   -ms-grid-columns: 40% 1fr;

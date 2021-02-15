@@ -74,6 +74,16 @@
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 30px;
+    &::before {
+      content: "";
+      background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/JWF-Flame-white.svg);
+      height: 27px;
+      width: 28px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 3px;
+    }
   }
 }
 
