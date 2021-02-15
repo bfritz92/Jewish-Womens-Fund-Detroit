@@ -2916,6 +2916,16 @@ dd {
       grid-template-columns: 40% 1fr;
 }
 
+.flame-heading {
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  max-width: 850px;
+}
+
+.flame-heading .wp-block-media-text__content {
+  max-width: 750px;
+}
+
 .wp-block-navigation .wp-block-navigation-link {
   padding: 0;
 }

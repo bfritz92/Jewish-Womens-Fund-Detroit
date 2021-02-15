@@ -92,3 +92,11 @@
   max-width: 800px;
   grid-template-columns: 40% 1fr;
 }
+
+.flame-heading {
+  grid-template-columns: 1fr 4fr;
+  max-width: 850px;
+  .wp-block-media-text__content {
+    max-width: 750px;
+  }
+}
