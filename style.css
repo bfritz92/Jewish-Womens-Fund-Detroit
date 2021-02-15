@@ -888,7 +888,6 @@ template {
  * - Set vertical padding and horizontal margins
  */
 .site-header,
-.site-main,
 .widget-area,
 .site-footer {
   padding-top: var(--global--spacing-vertical);
@@ -6344,6 +6343,36 @@ footer {
 .arrow-link:after:hover {
   -webkit-transition: translateX(5px) 0.5s ease-in-out;
   transition: translateX(5px) 0.5s ease-in-out;
+}
+
+.pdf-link:after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/file-pdf.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-top: 7px;
+  margin-left: 7px;
+  position: relative;
+  top: 4px;
+  fill: var(--global--color-purple);
+}
+
+.ext-link:after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/external-link-alt.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-top: 7px;
+  margin-left: 7px;
+  position: relative;
+  top: 4px;
+  fill: var(--global--color-purple);
 }
 
 .smaller-text {
