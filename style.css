@@ -2873,6 +2873,7 @@ dd {
 .entry-content div.wp-block-group.page-splash {
   margin-bottom: 0;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .entry-content div.wp-block-group.page-splash .page-splash--img {
