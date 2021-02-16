@@ -5025,9 +5025,7 @@ h1.page-title {
 }
 
 .primary-navigation > div > .menu-wrapper .sub-menu-toggle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   height: calc(2 * var(--primary-nav--padding) + 1.15em + 1px);
   width: 44px;
   padding: 0;
@@ -5099,24 +5097,28 @@ h1.page-title {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     z-index: 88888;
-  }
-  .primary-navigation > div > .menu-wrapper > li > .sub-menu:before, .primary-navigation > div > .menu-wrapper > li > .sub-menu:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    top: -10px;
-    left: var(--global--spacing-horizontal);
-    border-style: solid;
-    border-color: var(--primary-nav--border-color) transparent;
-    border-width: 0 7px 10px 7px;
-  }
-  .primary-navigation > div > .menu-wrapper > li > .sub-menu:after {
-    top: -9px;
-    border-color: var(--global--color-background) transparent;
+    /*
+        &:before,
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 0;
+          top: -10px;
+          left: var(--global--spacing-horizontal);
+          border-style: solid;
+          border-color: var(--primary-nav--border-color) transparent;
+          border-width: 0 7px 10px 7px;
+        }
+
+        &:after {
+          top: -9px;
+          border-color: var(--global--color-background) transparent;
+        }
+*/
   }
   .primary-navigation > div > .menu-wrapper > li > .sub-menu li {
-    background: var(--global--color-background);
+    background: var(--global--color-white);
   }
   .primary-navigation > div > .menu-wrapper > li > .sub-menu.submenu-reposition-left {
     /* rtl:ignore */
@@ -5225,7 +5227,6 @@ h1.page-title {
   padding: 0;
   list-style: none;
   margin-left: var(--primary-nav--padding);
-  border: 1px solid var(--primary-nav--border-color);
 }
 
 .primary-navigation .sub-menu .sub-menu {

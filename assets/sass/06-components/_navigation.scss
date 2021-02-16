@@ -236,7 +236,7 @@
 
     // Sub-menu buttons
     .sub-menu-toggle {
-      display: flex;
+      display: none;
       height: calc(2 * var(--primary-nav--padding) + 1.15em + 1px);
       width: 44px;
       padding: 0;
@@ -295,7 +295,7 @@
         padding-top: 3px;
         transition: all 0.5s ease;
         z-index: 88888;
-
+        /*
         &:before,
         &:after {
           content: "";
@@ -313,9 +313,9 @@
           top: -9px;
           border-color: var(--global--color-background) transparent;
         }
-
+*/
         li {
-          background: var(--global--color-background);
+          background: var(--global--color-white);
         }
 
         &.submenu-reposition-left {
@@ -438,7 +438,7 @@
     padding: 0;
     list-style: none;
     margin-left: var(--primary-nav--padding);
-    border: 1px solid var(--primary-nav--border-color);
+    //border: 1px solid var(--primary-nav--border-color);
 
     .sub-menu {
       border: none;
