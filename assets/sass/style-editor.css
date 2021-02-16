@@ -581,20 +581,19 @@ a:hover {
           text-decoration: underline 1px dotted currentColor;
   text-decoration-skip-ink: none;
   background: rgba(255, 255, 255, 0.9);
+  /* .has-background-white & {
+		background: rgba(0, 0, 0, .9);
+		color: var(--wp--style--color--link, var(--global--color-white));
+
+		.meta-nav {
+			color: var(--wp--style--color--link, var(--global--color-white));
+		}
+	} */
 }
 
 .is-dark-theme .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button),
 .is-dark-theme .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) .meta-nav {
   color: var(--wp--style--color--link, var(--global--color-background));
-}
-
-.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
-  background: rgba(0, 0, 0, 0.9);
-  color: var(--wp--style--color--link, var(--global--color-white));
-}
-
-.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) .meta-nav {
-  color: var(--wp--style--color--link, var(--global--color-white));
 }
 
 .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button).skip-link {
