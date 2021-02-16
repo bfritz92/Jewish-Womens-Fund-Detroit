@@ -10,7 +10,7 @@
     border-left: 3px solid var(--global--color-purple);
     margin-left: var(--global--spacing-horizontal);
   }
-  &.has-media-on-the-right .left-rule {
+  &.has-media-on-the-right.left-rule .wp-block-media-text__content {
     border-right: 3px solid var(--global--color-purple);
     border-left: none;
     margin-right: var(--global--spacing-horizontal);
