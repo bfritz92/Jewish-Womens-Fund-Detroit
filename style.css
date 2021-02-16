@@ -2806,6 +2806,14 @@ dd {
 
 .wp-block-media-text.left-rule .wp-block-media-text__content {
   border-left: 3px solid var(--global--color-purple);
+  margin-left: var(--global--spacing-horizontal);
+}
+
+.wp-block-media-text.has-media-on-the-right .left-rule {
+  border-right: 3px solid var(--global--color-purple);
+  border-left: none;
+  margin-right: var(--global--spacing-horizontal);
+  margin-left: none;
 }
 
 .wp-block-media-text a:focus img {
