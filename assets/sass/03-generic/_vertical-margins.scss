@@ -86,7 +86,9 @@
   margin-bottom: var(--global--spacing-vertical);
   margin-left: auto;
 }
-
+.entry-content {
+  margin-top: 0;
+}
 /*
  * Block & non-gutenberg content wrapper children
  * - Sets spacing-vertical margin logic

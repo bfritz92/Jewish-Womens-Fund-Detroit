@@ -929,6 +929,10 @@ template {
   margin-left: auto;
 }
 
+.entry-content {
+  margin-top: 0;
+}
+
 /*
  * Block & non-gutenberg content wrapper children
  * - Sets spacing-vertical margin logic
@@ -2809,7 +2813,7 @@ dd {
   margin-left: var(--global--spacing-horizontal);
 }
 
-.wp-block-media-text.has-media-on-the-right .left-rule {
+.wp-block-media-text.has-media-on-the-right.left-rule .wp-block-media-text__content {
   border-right: 3px solid var(--global--color-purple);
   border-left: none;
   margin-right: var(--global--spacing-horizontal);
