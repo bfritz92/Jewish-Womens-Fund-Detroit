@@ -2880,7 +2880,7 @@ dd {
 }
 
 .entry-content div.wp-block-group.page-splash .page-splash--img img {
-  max-height: 400px;
+  height: clamp(230px, 40vw, 600px);
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
