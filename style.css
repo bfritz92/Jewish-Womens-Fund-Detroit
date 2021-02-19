@@ -1572,6 +1572,11 @@ fieldset input[type="checkbox"] + label {
   }
 }
 
+.gfield_label,
+.gfield_title {
+  color: var(--global--color-primary);
+}
+
 img {
   display: block;
   height: auto;
@@ -4227,7 +4232,6 @@ a.custom-logo-link {
 .singular .entry-header {
   border-bottom: 3px solid var(--global--color-border);
   padding-bottom: calc(2 * var(--global--spacing-vertical));
-  margin-bottom: calc(3 * var(--global--spacing-vertical));
 }
 
 .home .entry-header {
@@ -4294,6 +4298,7 @@ a.custom-logo-link {
 h1.entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);
+  padding-top: var(--global--spacing-vertical);
 }
 
 /**

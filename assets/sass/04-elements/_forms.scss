@@ -328,3 +328,8 @@ fieldset {
     }
   }
 }
+
+.gfield_label,
+.gfield_title {
+  color: var(--global--color-primary);
+}
