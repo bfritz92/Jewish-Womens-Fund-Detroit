@@ -69,6 +69,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="<?php echo get_template_directory_uri(); ?>/js/utilities.js"></script>
 </body>
 </html>
