@@ -3026,8 +3026,8 @@ dd {
 }
 
 .flame-heading {
-  -ms-grid-columns: 1fr 5fr;
-      grid-template-columns: 1fr 5fr;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
   max-width: 850px;
   padding-top: 2rem;
 }
