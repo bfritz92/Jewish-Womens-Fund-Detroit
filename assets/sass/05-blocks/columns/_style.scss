@@ -186,6 +186,7 @@
     width: 100%;
     text-align: center;
     list-style: none;
+    font-weight: 700;
     @include media(tablet) {
       text-align: left;
       min-width: 250px;
@@ -227,6 +228,7 @@
   }
 
   &--item {
+    padding-top: 2rem;
     h2,
     h3,
     h4,

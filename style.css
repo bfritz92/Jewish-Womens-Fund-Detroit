@@ -2095,6 +2095,7 @@ input[type="reset"]:hover,
   width: 100%;
   text-align: center;
   list-style: none;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 592px) {
@@ -2143,6 +2144,10 @@ input[type="reset"]:hover,
 .sticky-nav--nav li a {
   width: 100%;
   color: var(--global--color-primary);
+}
+
+.sticky-nav--item {
+  padding-top: 2rem;
 }
 
 .sticky-nav--item h2,
