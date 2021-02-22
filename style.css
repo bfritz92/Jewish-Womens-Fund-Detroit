@@ -3036,6 +3036,16 @@ dd {
   max-width: 750px;
 }
 
+.flame-heading .wp-block-media-text__media {
+  max-width: 100px;
+}
+
+@media only screen and (max-width: 481px) {
+  .flame-heading .wp-block-media-text__media {
+    display: none;
+  }
+}
+
 .wp-block-navigation .wp-block-navigation-link {
   padding: 0;
 }
