@@ -188,6 +188,7 @@
     list-style: none;
     font-weight: 700;
     padding-left: 0;
+    padding-bottom: 2rem;
     @include media(tablet) {
       text-align: left;
       min-width: 350px;
@@ -195,6 +196,7 @@
       top: 80px;
       height: 100%;
       padding-right: 15px;
+      padding-bottom: 0;
     }
     li {
       width: 100%;
@@ -246,6 +248,9 @@
     }
     h3 {
       padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    ul li {
       padding-bottom: 1rem;
     }
     &:first-child {
