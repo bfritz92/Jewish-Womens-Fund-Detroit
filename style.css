@@ -2139,11 +2139,13 @@ input[type="reset"]:hover,
 .sticky-nav--nav li:active a,
 .sticky-nav--nav li.active a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .sticky-nav--nav li a {
   width: 100%;
   color: var(--global--color-primary);
+  text-decoration: none;
 }
 
 .sticky-nav--item {

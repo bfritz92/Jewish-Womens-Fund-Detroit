@@ -219,10 +219,12 @@
       &:active a,
       &.active a {
         color: #fff;
+        text-decoration: underline;
       }
       a {
         width: 100%;
         color: var(--global--color-primary);
+        text-decoration: none;
       }
     }
   }
