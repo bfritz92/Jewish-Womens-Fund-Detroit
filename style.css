@@ -2101,7 +2101,7 @@ input[type="reset"]:hover,
 @media only screen and (min-width: 592px) {
   .sticky-nav--nav {
     text-align: left;
-    min-width: 250px;
+    min-width: 350px;
     position: -webkit-sticky;
     position: sticky;
     top: 80px;
@@ -2147,7 +2147,8 @@ input[type="reset"]:hover,
 }
 
 .sticky-nav--item {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
 }
 
 .sticky-nav--item h2,
@@ -2164,8 +2165,17 @@ input[type="reset"]:hover,
 }
 
 .sticky-nav--item h3 {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.sticky-nav--item:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.sticky-nav--item:first-child h3 {
+  padding-top: 0;
 }
 
 .wp-block-cover,
