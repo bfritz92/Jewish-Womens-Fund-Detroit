@@ -2096,6 +2096,7 @@ input[type="reset"]:hover,
   text-align: center;
   list-style: none;
   font-weight: 700;
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 592px) {
