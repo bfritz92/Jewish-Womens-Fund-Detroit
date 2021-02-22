@@ -3026,8 +3026,8 @@ dd {
 }
 
 .flame-heading {
-  -ms-grid-columns: auto 1fr;
-      grid-template-columns: auto 1fr;
+  -ms-grid-columns: 100px 1fr;
+      grid-template-columns: 100px 1fr;
   max-width: 850px;
   padding-top: 2rem;
 }
@@ -3038,11 +3038,12 @@ dd {
 
 .flame-heading .wp-block-media-text__media {
   max-width: 100px;
+  display: none;
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (min-width: 592px) {
   .flame-heading .wp-block-media-text__media {
-    display: none;
+    display: block;
   }
 }
 
