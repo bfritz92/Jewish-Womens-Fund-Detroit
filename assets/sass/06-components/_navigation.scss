@@ -524,3 +524,7 @@
     opacity: 1;
   }
 }
+li.menu-item.donate a {
+  background-color: var(--global--color-primary);
+  color: #fff;
+}

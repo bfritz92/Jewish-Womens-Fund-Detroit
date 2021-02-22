@@ -2097,6 +2097,7 @@ input[type="reset"]:hover,
   list-style: none;
   font-weight: 700;
   padding-left: 0;
+  padding-bottom: 2rem;
 }
 
 @media only screen and (min-width: 592px) {
@@ -2108,6 +2109,7 @@ input[type="reset"]:hover,
     top: 80px;
     height: 100%;
     padding-right: 15px;
+    padding-bottom: 0;
   }
 }
 
@@ -2169,6 +2171,10 @@ input[type="reset"]:hover,
 
 .sticky-nav--item h3 {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sticky-nav--item ul li {
   padding-bottom: 1rem;
 }
 
@@ -5448,6 +5454,11 @@ h1.page-title {
   to {
     opacity: 1;
   }
+}
+
+li.menu-item.donate a {
+  background-color: var(--global--color-primary);
+  color: #fff;
 }
 
 .footer-navigation {
