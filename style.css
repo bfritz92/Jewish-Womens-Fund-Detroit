@@ -2158,6 +2158,11 @@ input[type="reset"]:hover,
   color: var(--global--color-primary);
 }
 
+.sticky-nav--item h3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
 .wp-block-cover,
 .wp-block-cover-image {
   background-color: var(--cover--color-background);
