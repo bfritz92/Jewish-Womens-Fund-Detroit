@@ -5533,6 +5533,12 @@ li.menu-item.donate a {
   color: #fff;
 }
 
+li.menu-item.donate a:hover, li.menu-item.donate a:focus {
+  color: var(--global--color-primary);
+  background-color: #fff;
+  border: var(--global--color-primary) 3px solid;
+}
+
 .footer-navigation {
   margin-top: calc(2 * var(--global--spacing-vertical));
   margin-bottom: var(--global--spacing-vertical);
