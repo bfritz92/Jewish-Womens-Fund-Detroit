@@ -1639,9 +1639,9 @@ fieldset input[type="checkbox"] + label {
           justify-content: center;
 }
 
-.gform_wrapper .ginput_container_total span.ginput_total {
-  color: var(--global--color-primary);
-  font-size: 3rem;
+.gform_wrapper span.ginput_total {
+  color: var(--global--color-primary) !important;
+  font-size: 3rem !important;
   font-weight: 700;
 }
 
