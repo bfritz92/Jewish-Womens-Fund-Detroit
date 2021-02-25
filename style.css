@@ -1645,6 +1645,10 @@ fieldset input[type="checkbox"] + label {
   font-weight: 700;
 }
 
+.gform_footer.top_label imput {
+  float: right;
+}
+
 img {
   display: block;
   height: auto;
