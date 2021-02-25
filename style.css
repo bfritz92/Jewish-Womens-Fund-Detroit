@@ -1602,7 +1602,7 @@ fieldset input[type="checkbox"] + label {
   margin-bottom: 0;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li:hover {
+#field_8_4 .ginput_container_radio .gfield_radio li:hover, #field_8_4 .ginput_container_radio .gfield_radio li:focus {
   color: var(--global--color-white);
   background-color: var(--global--color-primary);
 }
@@ -1614,6 +1614,7 @@ fieldset input[type="checkbox"] + label {
 #field_8_4 .ginput_container_radio .gfield_radio li label {
   width: 100%;
   font-weight: 700;
+  height: 100%;
 }
 
 img {

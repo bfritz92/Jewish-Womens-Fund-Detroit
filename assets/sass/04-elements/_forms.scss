@@ -349,7 +349,8 @@ fieldset {
     border: var(--global--color-primary) 3px solid;
     height: 50px;
     margin-bottom: 0;
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--global--color-white);
       background-color: var(--global--color-primary);
     }
@@ -359,6 +360,7 @@ fieldset {
     label {
       width: 100%;
       font-weight: 700;
+      height: 100%;
     }
   }
 }
