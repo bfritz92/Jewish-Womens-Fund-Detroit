@@ -1611,6 +1611,16 @@ fieldset input[type="checkbox"] + label {
   display: none;
 }
 
+#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label {
+  background-color: var(--global--color-primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label a {
+  color: #fff;
+}
+
 #field_8_4 .ginput_container_radio .gfield_radio li label {
   width: 100%;
   font-weight: 700;

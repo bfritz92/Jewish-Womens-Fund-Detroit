@@ -356,6 +356,14 @@ fieldset {
     }
     input {
       display: none;
+      &:checked + label {
+        background-color: var(--global--color-primary);
+        color: #fff;
+        font-weight: 700;
+        a {
+          color: #fff;
+        }
+      }
     }
     label {
       width: 100%;
