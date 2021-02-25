@@ -528,6 +528,7 @@ li.menu-item.donate a {
   background-color: var(--global--color-primary);
   color: #fff;
   border: var(--global--color-primary) 3px solid;
+  line-height: 0.8;
   &:hover,
   &:focus {
     color: var(--global--color-primary);
