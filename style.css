@@ -1602,6 +1602,11 @@ fieldset input[type="checkbox"] + label {
   margin-bottom: 0;
 }
 
+#field_8_4 .ginput_container_radio .gfield_radio li:hover {
+  color: var(--global--color-white);
+  background-color: var(--global--color-primary);
+}
+
 #field_8_4 .ginput_container_radio .gfield_radio li input {
   display: none;
 }

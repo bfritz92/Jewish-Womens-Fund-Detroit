@@ -349,6 +349,10 @@ fieldset {
     border: var(--global--color-primary) 3px solid;
     height: 50px;
     margin-bottom: 0;
+    &:hover {
+      color: var(--global--color-white);
+      background-color: var(--global--color-primary);
+    }
     input {
       display: none;
     }
