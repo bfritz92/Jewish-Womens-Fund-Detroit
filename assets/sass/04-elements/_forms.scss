@@ -346,12 +346,13 @@ fieldset {
     justify-content: center;
     text-align: center;
     border: var(--global--color-primary) 3px solid;
+    height: 50px;
+    margin-bottom: 0;
     input {
       display: none;
     }
     label {
       width: 100%;
-      height: 25px;
       font-weight: 700;
     }
   }
