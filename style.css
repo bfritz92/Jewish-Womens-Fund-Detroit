@@ -1582,6 +1582,7 @@ fieldset input[type="checkbox"] + label {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
 #field_8_4 .ginput_container_radio .gfield_radio li {

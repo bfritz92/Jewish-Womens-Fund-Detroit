@@ -339,6 +339,7 @@ fieldset {
 #field_8_4 .ginput_container_radio .gfield_radio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
   li {
     color: var(--global--color-primary);
     display: flex;
