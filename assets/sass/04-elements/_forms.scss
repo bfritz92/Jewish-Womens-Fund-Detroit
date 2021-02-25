@@ -329,7 +329,22 @@ fieldset {
   }
 }
 
+// GENERAL
 .gfield_label,
 .gform_title {
   color: var(--global--color-primary);
+}
+
+// AMOUNT GRID
+#field_8_4 .ginput_container_radio .gfield_radio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  li {
+    color: var(--global--color-primary);
+    font-weight: 700;
+    text-align: center;
+    input {
+      display: none;
+    }
+  }
 }

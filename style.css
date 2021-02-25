@@ -1577,6 +1577,23 @@ fieldset input[type="checkbox"] + label {
   color: var(--global--color-primary);
 }
 
+#field_8_4 .ginput_container_radio .gfield_radio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+#field_8_4 .ginput_container_radio .gfield_radio li {
+  color: var(--global--color-primary);
+  font-weight: 700;
+  text-align: center;
+}
+
+#field_8_4 .ginput_container_radio .gfield_radio li input {
+  display: none;
+}
+
 img {
   display: block;
   height: auto;
