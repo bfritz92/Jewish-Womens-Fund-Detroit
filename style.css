@@ -5531,12 +5531,12 @@ h1.page-title {
 li.menu-item.donate a {
   background-color: var(--global--color-primary);
   color: #fff;
+  border: var(--global--color-primary) 3px solid;
 }
 
 li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   color: var(--global--color-primary);
   background-color: #fff;
-  border: var(--global--color-primary) 3px solid;
 }
 
 .footer-navigation {

@@ -527,10 +527,10 @@
 li.menu-item.donate a {
   background-color: var(--global--color-primary);
   color: #fff;
+  border: var(--global--color-primary) 3px solid;
   &:hover,
   &:focus {
     color: var(--global--color-primary);
     background-color: #fff;
-    border: var(--global--color-primary) 3px solid;
   }
 }
