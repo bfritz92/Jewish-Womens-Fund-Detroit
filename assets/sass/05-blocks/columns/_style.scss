@@ -97,7 +97,6 @@
 }
 
 .feature-grants {
-  grid-gap: 25px;
   .wp-block-column {
     border: var(--global--color-purple) 3px solid;
     padding: 15px 20px 15px 15px;
@@ -128,7 +127,7 @@
       }
     }
     p {
-      margin: 15px;
+      margin: 15px 0;
     }
     .grant--logo {
       max-width: 200px;
