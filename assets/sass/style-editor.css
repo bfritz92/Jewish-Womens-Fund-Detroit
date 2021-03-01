@@ -159,7 +159,7 @@
   );
   /* Mint, default body background */
   --global--color-border: var(
-    --global--color-light-gray
+    --global--color-primary
   );
   /* Used for borders (separators) */
   /* Spacing */
