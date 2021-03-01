@@ -341,9 +341,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --pagination--font-weight: normal;
   --pagination--font-weight-strong: 600;
   /* Footer */
-  --footer--color-text: var(--global--color-primary);
-  --footer--color-link: var(--global--color-primary);
-  --footer--color-link-hover: var(--global--color-primary-hover);
+  --footer--color-text: var(--global--color-white);
+  --footer--color-link: var(--global--color-white);
+  --footer--color-link-hover: var(--global--color-white);
   --footer--font-family: var(--global--font-primary);
   --footer--font-size: var(--global--font-size-sm);
   /* Block: Pull quote */
@@ -4371,7 +4371,6 @@ a.custom-logo-link {
   font-family: var(--footer--font-family);
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
-  border-top: 3px solid var(--global--color-border);
   max-width: var(--responsive--alignwide-width);
   margin: auto;
 }
