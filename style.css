@@ -4372,6 +4372,7 @@ a.custom-logo-link {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    margin: 0 0 0 auto;
   }
 }
 
