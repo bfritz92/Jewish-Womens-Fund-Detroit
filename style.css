@@ -5567,8 +5567,6 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   color: var(--footer--color-text);
   font-size: var(--global--font-size-xs);
   font-family: var(--footer--font-family);
-  margin-right: auto;
-  width: calc(var(--responsive--alignwide-width) - 170px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5580,6 +5578,8 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
 @media only screen and (min-width: 822px) {
   .footer-navigation {
     display: block;
+    margin-right: auto;
+    width: calc(var(--responsive--alignwide-width) - 170px);
   }
 }
 

@@ -4,12 +4,13 @@
   color: var(--footer--color-text);
   font-size: var(--global--font-size-xs);
   font-family: var(--footer--font-family);
-  margin-right: auto;
-  width: calc(var(--responsive--alignwide-width) - 170px);
+
   display: flex;
   justify-content: center;
   @include media(desktop) {
     display: block;
+    margin-right: auto;
+    width: calc(var(--responsive--alignwide-width) - 170px);
   }
 }
 
