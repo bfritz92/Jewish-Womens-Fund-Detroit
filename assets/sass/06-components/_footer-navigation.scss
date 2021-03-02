@@ -6,6 +6,11 @@
   font-family: var(--footer--font-family);
   margin-right: auto;
   width: calc(var(--responsive--alignwide-width) - 170px);
+  display: flex;
+  justify-content: center;
+  @include media(desktop) {
+    display: block;
+  }
 }
 
 .footer-navigation-wrapper {
@@ -15,8 +20,10 @@
   list-style: none;
   padding-left: 0;
   width: max-content;
-  float: right;
 
+  @include media(desktop) {
+    float: right;
+  }
   li {
     display: inline;
     // This is to prevent hover styles from overlapping when the menu wraps.

@@ -5569,6 +5569,18 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   font-family: var(--footer--font-family);
   margin-right: auto;
   width: calc(var(--responsive--alignwide-width) - 170px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-width: 822px) {
+  .footer-navigation {
+    display: block;
+  }
 }
 
 .footer-navigation-wrapper {
@@ -5585,7 +5597,12 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  float: right;
+}
+
+@media only screen and (min-width: 822px) {
+  .footer-navigation-wrapper {
+    float: right;
+  }
 }
 
 .footer-navigation-wrapper li {
