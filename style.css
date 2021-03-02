@@ -4372,7 +4372,6 @@ a.custom-logo-link {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin: 0 0 0 auto;
   }
 }
 
@@ -4383,6 +4382,12 @@ a.custom-logo-link {
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   max-width: var(--responsive--alignwide-width);
+}
+
+@media only screen and (min-width: 592px) {
+  .site-footer > .site-info {
+    margin: 0 0 0 auto;
+  }
 }
 
 .site-footer > .site-info .site-name {

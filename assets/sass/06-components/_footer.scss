@@ -10,7 +10,6 @@
   flex-direction: column-reverse;
   @include media(tablet) {
     flex-direction: row-reverse;
-    margin: 0 0 0 auto;
   }
 }
 
@@ -23,6 +22,9 @@
   line-height: var(--global--line-height-body);
   //border-top: 3px solid var(--global--color-border);
   max-width: var(--responsive--alignwide-width);
+  @include media(tablet) {
+    margin: 0 0 0 auto;
+  }
 
   .site-name {
     text-transform: var(--branding--title--text-transform);
