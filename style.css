@@ -5617,6 +5617,12 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   fill: var(--wp--style--color--link, var(--global--color-background));
 }
 
+.footer-navigation-wrapper li a:focus span {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--global--heading-letter-spacing);
+}
+
 .has-background-white .footer-navigation-wrapper li a:focus .svg-icon {
   fill: var(--wp--style--color--link, var(--global--color-white));
 }
