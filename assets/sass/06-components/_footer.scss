@@ -8,7 +8,7 @@
   max-width: var(--responsive--alignfull-width);
   display: flex;
   flex-direction: column-reverse;
-  @include media(tablet) {
+  @include media(desktop) {
     flex-direction: row-reverse;
   }
 }
@@ -21,16 +21,17 @@
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   //border-top: 3px solid var(--global--color-border);
-  max-width: var(--responsive--alignwide-width);
-  @include media(tablet) {
+  margin: auto;
+  @include media(desktop) {
     margin: 0 0 0 auto;
+    max-width: var(--responsive--alignwide-width);
   }
 
   .site-name {
     text-transform: var(--branding--title--text-transform);
     font-size: var(--branding--title--font-size);
     width: 150px;
-    @include media(tablet) {
+    @include media(desktop) {
       padding-left: 2rem;
     }
     .footer-logo {
