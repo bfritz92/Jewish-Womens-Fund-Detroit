@@ -4,6 +4,8 @@
   color: var(--footer--color-text);
   font-size: var(--global--font-size-xs);
   font-family: var(--footer--font-family);
+  margin-right: auto;
+  width: calc(var(--responsive--alignwide-width) - 170px);
 }
 
 .footer-navigation-wrapper {
@@ -12,7 +14,8 @@
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
-
+  width: max-content;
+  float: right;
   li {
     display: inline;
     // This is to prevent hover styles from overlapping when the menu wraps.

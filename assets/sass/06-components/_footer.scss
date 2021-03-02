@@ -22,12 +22,15 @@
   line-height: var(--global--line-height-body);
   //border-top: 3px solid var(--global--color-border);
   max-width: var(--responsive--alignwide-width);
-  margin: auto;
+  //margin: auto;
 
   .site-name {
     text-transform: var(--branding--title--text-transform);
     font-size: var(--branding--title--font-size);
     width: 150px;
+    @include media(tablet) {
+      padding-left: 2rem;
+    }
     .footer-logo {
       padding-bottom: 15px;
     }

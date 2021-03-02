@@ -4382,13 +4382,18 @@ a.custom-logo-link {
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   max-width: var(--responsive--alignwide-width);
-  margin: auto;
 }
 
 .site-footer > .site-info .site-name {
   text-transform: var(--branding--title--text-transform);
   font-size: var(--branding--title--font-size);
   width: 150px;
+}
+
+@media only screen and (min-width: 592px) {
+  .site-footer > .site-info .site-name {
+    padding-left: 2rem;
+  }
 }
 
 .site-footer > .site-info .site-name .footer-logo {
@@ -5555,6 +5560,8 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
   color: var(--footer--color-text);
   font-size: var(--global--font-size-xs);
   font-family: var(--footer--font-family);
+  margin-right: auto;
+  width: calc(var(--responsive--alignwide-width) - 170px);
 }
 
 .footer-navigation-wrapper {
@@ -5568,6 +5575,10 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
       flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: right;
 }
 
 .footer-navigation-wrapper li {
