@@ -2114,29 +2114,23 @@ input[type="reset"]:hover,
   font-weight: 700;
 }
 
-.pre-footer--events--item {
-  list-style: none;
-  border: var(--global--color-primary) 2px solid;
-  padding: 15px;
-}
-
-.pre-footer--events--item h3 {
+.pre-footer--events ul.upcoming-events li h3 {
   font-weight: 700;
 }
 
-.pre-footer--events--item li.date {
+.pre-footer--events ul.upcoming-events li li.date {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 700;
 }
 
-.pre-footer--events--item li p {
+.pre-footer--events ul.upcoming-events li li p {
   line-height: 1.1;
   padding-bottom: 15px;
   font-size: 18px;
 }
 
-.pre-footer--events--item li:last-child a {
+.pre-footer--events ul.upcoming-events li li:last-child a {
   text-align: right;
 }
 
@@ -4363,6 +4357,22 @@ a.custom-logo-link {
   background-color: var(--global--color-purple);
   color: #fff;
   max-width: var(--responsive--alignfull-width);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 592px) {
+  .site-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 
 .site-footer > .site-info {
@@ -4378,6 +4388,11 @@ a.custom-logo-link {
 .site-footer > .site-info .site-name {
   text-transform: var(--branding--title--text-transform);
   font-size: var(--branding--title--font-size);
+  width: 150px;
+}
+
+.site-footer > .site-info .site-name .footer-logo {
+  padding-bottom: 15px;
 }
 
 .site-footer > .site-info .powered-by {
@@ -4540,7 +4555,6 @@ h1.entry-title {
   margin-top: var(--global--spacing-vertical);
   padding-top: var(--global--spacing-unit);
   padding-bottom: calc(3 * var(--global--spacing-vertical));
-  border-bottom: var(--separator--height) solid var(--separator--border-color);
 }
 
 .single .site-main > article > .entry-footer {

@@ -6,6 +6,11 @@
   background-color: var(--global--color-purple);
   color: #fff;
   max-width: var(--responsive--alignfull-width);
+  display: flex;
+  flex-direction: column-reverse;
+  @include media(tablet) {
+    flex-direction: row-reverse;
+  }
 }
 
 // Footer Branding
@@ -22,6 +27,10 @@
   .site-name {
     text-transform: var(--branding--title--text-transform);
     font-size: var(--branding--title--font-size);
+    width: 150px;
+    .footer-logo {
+      padding-bottom: 15px;
+    }
   }
 
   .powered-by {

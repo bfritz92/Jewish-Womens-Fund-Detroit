@@ -149,10 +149,7 @@
     }
   }
   &--events {
-    &--item {
-      list-style: none;
-      border: var(--global--color-primary) 2px solid;
-      padding: 15px;
+    ul.upcoming-events li {
       h3 {
         font-weight: 700;
       }
