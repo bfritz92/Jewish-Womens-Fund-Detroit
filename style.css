@@ -5751,6 +5751,7 @@ li.menu-item.donate a:hover, li.menu-item.donate a:focus {
 
 .post-navigation {
   margin: var(--global--spacing-vertical) auto;
+  padding-bottom: var(--global--spacing-vertical);
 }
 
 @media only screen and (min-width: 822px) {
