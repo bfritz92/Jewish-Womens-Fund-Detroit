@@ -49,7 +49,7 @@ while ( have_posts() ) {
 			?>
 		</div><!-- .entry-content -->
 
-		<footer class="entry-footer default-max-width">
+		<footer class="entry-footer alignwide">
 			<?php
 			// Check if there is a parent, then add the published in link.
 			if ( wp_get_post_parent_id( $post ) ) {
