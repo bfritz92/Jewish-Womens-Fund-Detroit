@@ -56,6 +56,9 @@
 			</div><!-- .site-name -->
 
 		</div><!-- .site-info -->
+		<div class="copyright-info">
+			<p></p>
+		</div><!-- .copyright-info -->
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
