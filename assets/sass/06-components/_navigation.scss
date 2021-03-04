@@ -465,6 +465,8 @@
         display: block;
         font-size: var(--primary-nav--font-size-sub-menu-mobile);
         font-style: var(--primary-nav--font-style-sub-menu-mobile);
+        text-transform: uppercase;
+        letter-spacing: var(--global--heading-line-spacing);
 
         @include media(mobile) {
           font-size: var(--primary-nav--font-size-sub-menu);
