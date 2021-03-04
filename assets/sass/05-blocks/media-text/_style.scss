@@ -75,6 +75,9 @@
       height: clamp(230px, 40vw, 600px);
       object-fit: cover;
       object-position: center;
+      &.top {
+        object-position: center top;
+      }
     }
   }
   .page-splash--title {
