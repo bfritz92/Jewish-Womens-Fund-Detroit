@@ -555,6 +555,14 @@ require get_template_directory() . '/inc/acf-blocks.php';
 require_once get_template_directory() . '/classes/class-twenty-twenty-one-dark-mode.php';
 new Twenty_Twenty_One_Dark_Mode();
 
+// remove post thumbnail inline sizes
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
+
+function remove_thumbnail_dimensions( $html ) {
+    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+    return $html;
+}
 /**
  * Enqueue scripts for the customizer preview.
  *
