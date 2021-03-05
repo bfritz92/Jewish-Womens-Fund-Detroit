@@ -18,7 +18,7 @@ get_header(); ?>
 		
 			<div class="wp-block-group alignfull page-splash has-black-color has-text-color has-background" style="background-color:#48348d">
 			<div class="wp-block-group__inner-container">
-		<?php the_post_thumbnail('page-splash--img'); ?>
+		<?php the_post_thumbnail(['class' => 'page-splash--img']); ?>
 		<?php the_title( '<h1 class="entry-title alignwide page-splash--title has-white-color">', '</h1>' ); ?>
 		</div></div>
 	</header>
