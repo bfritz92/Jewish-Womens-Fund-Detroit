@@ -20,9 +20,7 @@ get_header(); ?>
 	<div class="entry-content">
 	<div class="wp-block-group alignfull page-splash has-black-color has-text-color has-background" style="background-color:#48348d">
 	<div class="wp-block-group__inner-container">
-	<figure class="wp-block-image alignfull size-large page-splash--img">
 	<?php twenty_twenty_one_post_thumbnail(); ?>
-	</figure>
 
 
 	<?php the_title( '<h1 class="entry-title alignwide page-splash--title has-white-color">', '</h1>' ); ?>
