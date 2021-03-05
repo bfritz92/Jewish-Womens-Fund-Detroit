@@ -3049,15 +3049,13 @@ dd {
 }
 
 /*PAGE SPLASH */
-.entry-header div.wp-block-group.page-splash,
 .entry-content div.page-splash {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.entry-header div.wp-block-group.page-splash img.page-splash--img.post-thumbnail,
-.entry-content div.page-splash img.page-splash--img.post-thumbnail {
+.entry-content div.page-splash .post-thumbnail {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
@@ -3069,14 +3067,12 @@ dd {
   max-width: 100%;
 }
 
-.entry-header div.wp-block-group.page-splash img.page-splash--img.post-thumbnail.top,
-.entry-content div.page-splash img.page-splash--img.post-thumbnail.top {
+.entry-content div.page-splash .post-thumbnail.top {
   -o-object-position: center top;
      object-position: center top;
 }
 
-.entry-header div.wp-block-group.page-splash .page-splash--title,
-.entry-content div.page-splash .page-splash--title {
+.entry-content div.page-splash h1 {
   color: var(--global--color-white);
   margin-top: 0;
   margin-bottom: 15px;
@@ -3084,8 +3080,7 @@ dd {
   text-transform: uppercase;
 }
 
-.entry-header div.wp-block-group.page-splash .page-splash--title::before,
-.entry-content div.page-splash .page-splash--title::before {
+.entry-content div.page-splash h1::before {
   content: "";
   background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/JWF-Flame-white.svg);
   height: 27px;
