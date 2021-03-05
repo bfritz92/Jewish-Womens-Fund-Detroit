@@ -68,7 +68,7 @@
 <script type="text/javascript">
 jQuery.noConflict();
 jQuery(document).ready(function($){
-  $('.post-thumbnail img').each(function(){
+  $('.page-splash--img .wp-post-image img').each(function(){
   $(this).removeAttr('width')
   $(this).removeAttr('height');
  });
