@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full-width layout
+ * Template Name: Secondary Page
  * Template Post Type: post, page, event
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
