@@ -3050,7 +3050,7 @@ dd {
 
 /*PAGE SPLASH */
 .entry-header div.wp-block-group.page-splash,
-.entry-content div.wp-block-group.page-splash {
+.entry-content div.page-splash {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -3058,8 +3058,8 @@ dd {
 
 .entry-header div.wp-block-group.page-splash .page-splash--img,
 .entry-header div.wp-block-group.page-splash img.post-thumbnail,
-.entry-content div.wp-block-group.page-splash .page-splash--img,
-.entry-content div.wp-block-group.page-splash img.post-thumbnail {
+.entry-content div.page-splash .page-splash--img,
+.entry-content div.page-splash img.post-thumbnail {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
@@ -3067,8 +3067,8 @@ dd {
 
 .entry-header div.wp-block-group.page-splash .page-splash--img img,
 .entry-header div.wp-block-group.page-splash img.post-thumbnail img,
-.entry-content div.wp-block-group.page-splash .page-splash--img img,
-.entry-content div.wp-block-group.page-splash img.post-thumbnail img {
+.entry-content div.page-splash .page-splash--img img,
+.entry-content div.page-splash img.post-thumbnail img {
   height: clamp(230px, 40vw, 600px);
   -o-object-fit: cover;
      object-fit: cover;
@@ -3079,14 +3079,14 @@ dd {
 
 .entry-header div.wp-block-group.page-splash .page-splash--img img.top,
 .entry-header div.wp-block-group.page-splash img.post-thumbnail img.top,
-.entry-content div.wp-block-group.page-splash .page-splash--img img.top,
-.entry-content div.wp-block-group.page-splash img.post-thumbnail img.top {
+.entry-content div.page-splash .page-splash--img img.top,
+.entry-content div.page-splash img.post-thumbnail img.top {
   -o-object-position: center top;
      object-position: center top;
 }
 
 .entry-header div.wp-block-group.page-splash .page-splash--title,
-.entry-content div.wp-block-group.page-splash .page-splash--title {
+.entry-content div.page-splash .page-splash--title {
   color: var(--global--color-white);
   margin-top: 0;
   margin-bottom: 15px;
@@ -3095,7 +3095,7 @@ dd {
 }
 
 .entry-header div.wp-block-group.page-splash .page-splash--title::before,
-.entry-content div.wp-block-group.page-splash .page-splash--title::before {
+.entry-content div.page-splash .page-splash--title::before {
   content: "";
   background-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/02/JWF-Flame-white.svg);
   height: 27px;
