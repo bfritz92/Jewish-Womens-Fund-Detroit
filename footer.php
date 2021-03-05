@@ -65,5 +65,14 @@
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/utilities.js"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($){
+  $('.post-thumbnail img').each(function(){
+  $(this).removeAttr('width')
+  $(this).removeAttr('height');
+ });
+});
+</script>
 </body>
 </html>
