@@ -17,7 +17,7 @@ get_header(); ?>
 	<header class="entry-header alignfull">
 			<div class="page-splash has-black-color has-text-color has-background" style="background-color:#48348d">
 			
-		<?php the_post_thumbnail('large', ['class' => 'page-splash--img', 'title' => 'Feature image']); ?>
+		<?php the_post_thumbnail('full', ['class' => 'page-splash--img', 'title' => 'Feature image']); ?>
 		<?php the_title( '<h1 class="alignwide page-splash--title has-white-color">', '</h1>' ); ?>
 		</div>
 	</header>
