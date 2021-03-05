@@ -63,6 +63,7 @@
 }
 
 /*PAGE SPLASH */
+.entry-header div.wp-block-group.page-splash,
 .entry-content div.wp-block-group.page-splash {
   margin-bottom: 0;
   padding-top: 0;
@@ -75,7 +76,7 @@
       height: clamp(230px, 40vw, 600px);
       object-fit: cover;
       object-position: center;
-      &.top {
+      .top {
         object-position: center top;
       }
     }
@@ -110,7 +111,7 @@
   .wp-block-media-text__content {
     max-width: 750px;
   }
-  .post-thumbnail {
+  .wp-block-media-text__media {
     max-width: 100px;
     display: none;
     @include media(tablet) {
