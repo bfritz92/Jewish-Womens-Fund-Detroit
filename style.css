@@ -3055,7 +3055,7 @@ dd {
   padding-bottom: 0;
 }
 
-.entry-header div.page-splash .page-splash--image.wp-post-image {
+.entry-header div.page-splash .page-splash--img.wp-post-image {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
@@ -3067,7 +3067,7 @@ dd {
   max-width: 100%;
 }
 
-.entry-header div.page-splash .page-splash--image.wp-post-image.top {
+.entry-header div.page-splash .page-splash--img.wp-post-image.top {
   -o-object-position: center top;
      object-position: center top;
 }
