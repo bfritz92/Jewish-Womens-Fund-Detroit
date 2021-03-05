@@ -48,4 +48,4 @@ get_header(); ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->
 
-get_footer();
+<?php get_footer(); ?>
