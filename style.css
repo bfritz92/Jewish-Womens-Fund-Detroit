@@ -3109,13 +3109,13 @@ dd {
   max-width: 750px;
 }
 
-.flame-heading .wp-block-media-text__media {
+.flame-heading .post-thumbnail {
   max-width: 100px;
   display: none;
 }
 
 @media only screen and (min-width: 592px) {
-  .flame-heading .wp-block-media-text__media {
+  .flame-heading .post-thumbnail {
     display: block;
   }
 }
