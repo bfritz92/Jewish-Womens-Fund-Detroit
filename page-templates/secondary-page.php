@@ -15,7 +15,6 @@ get_header(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header alignfull">
-		
 			<div class="wp-block-group alignfull page-splash has-black-color has-text-color has-background" style="background-color:#48348d">
 			<div class="wp-block-group__inner-container">
 		<?php the_post_thumbnail('post-thumbnail', ['class' => 'page-splash--img', 'title' => 'Feature image']); ?>
