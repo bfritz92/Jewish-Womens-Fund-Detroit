@@ -47,3 +47,5 @@ get_header(); ?>
 	<?php endif; ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->
+
+get_footer();
