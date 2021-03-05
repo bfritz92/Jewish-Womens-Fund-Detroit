@@ -68,19 +68,16 @@
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  .page-splash--img,
-  img.post-thumbnail {
+  img.page-splash--img.post-thumbnail {
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 10px;
-    img {
-      height: clamp(230px, 40vw, 600px);
-      object-fit: cover;
-      object-position: center;
-      max-width: 100%;
-      &.top {
-        object-position: center top;
-      }
+    height: clamp(230px, 40vw, 600px);
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    &.top {
+      object-position: center top;
     }
   }
   .page-splash--title {

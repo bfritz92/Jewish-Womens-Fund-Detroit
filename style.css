@@ -3056,19 +3056,11 @@ dd {
   padding-bottom: 0;
 }
 
-.entry-header div.wp-block-group.page-splash .page-splash--img,
-.entry-header div.wp-block-group.page-splash img.post-thumbnail,
-.entry-content div.page-splash .page-splash--img,
-.entry-content div.page-splash img.post-thumbnail {
+.entry-header div.wp-block-group.page-splash img.page-splash--img.post-thumbnail,
+.entry-content div.page-splash img.page-splash--img.post-thumbnail {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
-}
-
-.entry-header div.wp-block-group.page-splash .page-splash--img img,
-.entry-header div.wp-block-group.page-splash img.post-thumbnail img,
-.entry-content div.page-splash .page-splash--img img,
-.entry-content div.page-splash img.post-thumbnail img {
   height: clamp(230px, 40vw, 600px);
   -o-object-fit: cover;
      object-fit: cover;
@@ -3077,10 +3069,8 @@ dd {
   max-width: 100%;
 }
 
-.entry-header div.wp-block-group.page-splash .page-splash--img img.top,
-.entry-header div.wp-block-group.page-splash img.post-thumbnail img.top,
-.entry-content div.page-splash .page-splash--img img.top,
-.entry-content div.page-splash img.post-thumbnail img.top {
+.entry-header div.wp-block-group.page-splash img.page-splash--img.post-thumbnail.top,
+.entry-content div.page-splash img.page-splash--img.post-thumbnail.top {
   -o-object-position: center top;
      object-position: center top;
 }
