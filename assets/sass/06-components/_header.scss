@@ -124,7 +124,7 @@ a.custom-logo-link {
     width: auto;
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     .custom-logo {
       max-width: var(--branding--logo--max-width);
       max-height: var(--branding--logo--max-height);
@@ -134,7 +134,7 @@ a.custom-logo-link {
   }
 }
 
-@include media(mobile-only) {
+@include media(tablet) {
   .site-header {
     &.has-logo {
       &:not(.has-title-and-tagline) {
