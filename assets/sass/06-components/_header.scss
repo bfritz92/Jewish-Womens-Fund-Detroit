@@ -124,7 +124,7 @@ a.custom-logo-link {
     width: auto;
   }
 
-  @include media(tablet) {
+  @include media(mobile) {
     .custom-logo {
       max-width: var(--branding--logo--max-width);
       max-height: var(--branding--logo--max-height);
@@ -134,7 +134,7 @@ a.custom-logo-link {
   }
 }
 
-@include media(tablet) {
+@include media(mobile-only) {
   .site-header {
     &.has-logo {
       &:not(.has-title-and-tagline) {
@@ -201,7 +201,7 @@ a.custom-logo-link {
               padding-right: calc(
                 var(--global--spacing-horizontal) * 0.6 - 4.5px
               );
-              //margin-right: calc(0px - var(--global--spacing-horizontal) * 0.6);
+              margin-right: calc(0px - var(--global--spacing-horizontal) * 0.6);
             }
           }
         }
