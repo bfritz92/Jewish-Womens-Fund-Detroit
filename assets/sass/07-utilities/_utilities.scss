@@ -309,7 +309,7 @@ $widescreen: 2000px;
     fill: var(--global--color-purple);
   }
   &:hover:after {
-    transform: translateX(5px) 0.5s ease-in-out;
+    transform: translateX(5px, 0.5s ease-in-out);
   }
 }
 .pdf-link:after {

@@ -6619,8 +6619,8 @@ footer {
 }
 
 .arrow-link:hover:after {
-  -webkit-transform: translateX(5px) 0.5s ease-in-out;
-          transform: translateX(5px) 0.5s ease-in-out;
+  -webkit-transform: translateX(5px, 0.5s ease-in-out);
+          transform: translateX(5px, 0.5s ease-in-out);
 }
 
 .pdf-link:after {
