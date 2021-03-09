@@ -4189,16 +4189,8 @@ table.wp-calendar-table caption {
 }
 
 #masthead {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media only screen and (max-width: 481px) {
-  #masthead {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .site-branding {
