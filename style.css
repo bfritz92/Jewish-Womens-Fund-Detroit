@@ -4182,7 +4182,7 @@ table.wp-calendar-table caption {
           align-items: center;
 }
 
-@media only screen and (min-width: 482px) {
+@media only screen and (min-width: 592px) {
   .site-header {
     padding-top: 20px;
   }
@@ -4205,7 +4205,7 @@ table.wp-calendar-table caption {
   text-align: center;
 }
 
-@media only screen and (min-width: 482px) {
+@media only screen and (min-width: 592px) {
   .site-branding {
     margin-right: initial;
     margin-top: 4px;
@@ -4237,7 +4237,7 @@ table.wp-calendar-table caption {
   color: var(--branding--color-link-hover);
 }
 
-@media only screen and (min-width: 482px) {
+@media only screen and (min-width: 592px) {
   .site-title {
     font-size: var(--branding--title--font-size);
   }
@@ -4288,7 +4288,7 @@ a.custom-logo-link {
   width: auto;
 }
 
-@media only screen and (min-width: 482px) {
+@media only screen and (min-width: 592px) {
   .site-logo .custom-logo {
     max-width: var(--branding--logo--max-width);
     max-height: var(--branding--logo--max-height);
@@ -4297,7 +4297,7 @@ a.custom-logo-link {
   }
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 591px) {
   .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo {
     position: absolute;
     padding-top: calc(0.5 * var(--global--spacing-vertical));

@@ -15,7 +15,7 @@
     align-items: center;
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     padding-top: 20px;
   }
 
@@ -38,7 +38,7 @@
     text-align: center;
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     margin-right: initial;
     margin-top: 4px; // Align the baseline of the site title with the primary menu
   }
@@ -72,7 +72,7 @@
     }
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     font-size: var(--branding--title--font-size);
   }
 }
@@ -124,7 +124,7 @@ a.custom-logo-link {
     width: auto;
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     .custom-logo {
       max-width: var(--branding--logo--max-width);
       max-height: var(--branding--logo--max-height);
@@ -134,7 +134,7 @@ a.custom-logo-link {
   }
 }
 
-@include media(mobile-only) {
+@include media(tablet-only) {
   .site-header {
     &.has-logo {
       &:not(.has-title-and-tagline) {
