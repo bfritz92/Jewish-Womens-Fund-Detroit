@@ -306,8 +306,9 @@ $widescreen: 2000px;
   position: relative;
   top: 4px;
   fill: var(--global--color-purple);
+  transition: translateX(5px) 0.5s ease-in-out;
   &:hover {
-    transition: translateX(5px) 0.5s ease-in-out;
+    transform: translateX(5px);
   }
 }
 .pdf-link:after {
