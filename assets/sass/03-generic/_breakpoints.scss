@@ -13,6 +13,7 @@ $breakpoint_md: 592px;
 $breakpoint_lg: 652px;
 $breakpoint_xl: 822px;
 $breakpoint_xxl: 1024px;
+$brakpoint_nav: 685px;
 
 // Responsive breakpoints mixin
 @mixin media($res) {
@@ -36,6 +37,18 @@ $breakpoint_xxl: 1024px;
 
   @if tablet == $res {
     @media only screen and (min-width: #{$breakpoint_md}) {
+      @content;
+    }
+  }
+
+  @if nav-only == $res {
+    @media only screen and (max-width: #{$breakpoint_nav - 1}) {
+      @content;
+    }
+  }
+
+  @if nav == $res {
+    @media only screen and (min-width: #{$breakpoint_nav}) {
       @content;
     }
   }
