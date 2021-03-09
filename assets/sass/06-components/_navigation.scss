@@ -17,7 +17,7 @@
       calc(0.5 * var(--button--padding-horizontal));
   }
 
-  @include media(mobile-only) {
+  @include media(tablet-only) {
     display: flex;
   }
 
@@ -111,7 +111,7 @@
     transition: all 0.15s ease-in-out;
     transform: translateY(var(--global--spacing-vertical));
 
-    @include media(mobile-only) {
+    @include media(tablet-only) {
       height: 100vh;
       z-index: 499;
       overflow-x: hidden;
@@ -139,7 +139,7 @@
 
   // Mobile menu open
   .primary-navigation-open & {
-    @include media(mobile-only) {
+    @include media(tablet-only) {
       width: 100%;
       position: fixed;
       z-index: 2; // To be greater than the cover block and embeds.
@@ -154,14 +154,14 @@
   }
 
   .primary-navigation-open .has-logo.has-title-and-tagline & {
-    @include media(mobile-only) {
+    @include media(tablet-only) {
       > .primary-menu-container {
         transform: translateX(0) translateY(0);
       }
     }
   }
 
-  @include media(mobile) {
+  @include media(tablet) {
     position: relative;
     margin-left: auto;
 
@@ -211,7 +211,7 @@
     padding-left: 0;
     position: relative;
 
-    @include media(mobile-only) {
+    @include media(tablet-only) {
       padding-bottom: 100px;
 
       ul {
@@ -224,7 +224,7 @@
       position: relative;
       width: 100%;
 
-      @include media(mobile) {
+      @include media(tablet) {
         margin: 0;
         width: inherit;
 
@@ -251,7 +251,7 @@
           var(--wp--style--color--link, var(--global--color-primary));
       }
 
-      @include media(mobile-only) {
+      @include media(tablet-only) {
         display: none;
       }
 
@@ -286,7 +286,7 @@
     > li > .sub-menu {
       position: relative;
 
-      @include media(mobile) {
+      @include media(tablet) {
         left: 0;
         margin: 0;
         min-width: max-content;
@@ -361,7 +361,7 @@
   }
 
   .primary-menu-container {
-    @include media(mobile) {
+    @include media(tablet) {
       // Better align with the site title when the menu wraps.
       margin-right: calc(0px - var(--primary-nav--padding));
       margin-left: calc(0px - var(--primary-nav--padding));
@@ -391,7 +391,7 @@
     padding: var(--primary-nav--padding) 0;
     text-decoration: none;
 
-    @include media(mobile) {
+    @include media(tablet) {
       display: block;
       font-family: var(--primary-nav--font-family);
       font-size: var(--primary-nav--font-size);
@@ -445,7 +445,7 @@
     }
 
     // Sub-menu items om wide screens.
-    @include media(mobile) {
+    @include media(tablet) {
       // For nested sub-menus, don't duplicate the padding
       > .menu-item > .sub-menu {
         padding: 0;
@@ -453,7 +453,7 @@
     }
 
     .menu-item {
-      @include media(mobile-only) {
+      @include media(tablet-only) {
         &:last-child() {
           margin-bottom: 0;
         }
@@ -468,7 +468,7 @@
         text-transform: uppercase;
         letter-spacing: var(--global--heading-line-spacing);
 
-        @include media(mobile) {
+        @include media(tablet) {
           font-size: var(--primary-nav--font-size-sub-menu);
           font-style: var(--primary-nav--font-style);
         }
@@ -482,7 +482,7 @@
       display: none;
     }
 
-    @include media(mobile) {
+    @include media(tablet) {
       > .svg-icon {
         display: inline-block;
         height: 100%;
@@ -508,7 +508,7 @@
 }
 
 // Keep the menu pinned to the top when the menu is open.
-@include media(mobile-only) {
+@include media(tablet-only) {
   .lock-scrolling .site {
     position: fixed;
     max-width: 100%;
