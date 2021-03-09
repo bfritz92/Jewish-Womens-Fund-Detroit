@@ -4182,7 +4182,7 @@ table.wp-calendar-table caption {
           align-items: center;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .site-header {
     padding-top: 20px;
   }
@@ -4204,7 +4204,7 @@ table.wp-calendar-table caption {
   text-align: center;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .site-branding {
     margin-right: initial;
     margin-top: 4px;
@@ -4236,7 +4236,7 @@ table.wp-calendar-table caption {
   color: var(--branding--color-link-hover);
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .site-title {
     font-size: var(--branding--title--font-size);
   }
@@ -4287,7 +4287,7 @@ a.custom-logo-link {
   width: auto;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .site-logo .custom-logo {
     max-width: var(--branding--logo--max-width);
     max-height: var(--branding--logo--max-height);
@@ -4296,7 +4296,7 @@ a.custom-logo-link {
   }
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo {
     position: absolute;
     padding-top: calc(0.5 * var(--global--spacing-vertical));
@@ -5051,7 +5051,7 @@ h1.page-title {
   padding: calc( var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .menu-button-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5147,7 +5147,7 @@ h1.page-title {
           transform: translateY(var(--global--spacing-vertical));
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation > .primary-menu-container {
     height: 100vh;
     z-index: 499;
@@ -5171,7 +5171,7 @@ h1.page-title {
   }
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation-open .primary-navigation {
     width: 100%;
     position: fixed;
@@ -5187,14 +5187,14 @@ h1.page-title {
           transform: translateY(0);
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation-open .has-logo.has-title-and-tagline .primary-navigation > .primary-menu-container {
     -webkit-transform: translateX(0) translateY(0);
             transform: translateX(0) translateY(0);
   }
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation {
     position: relative;
     margin-left: auto;
@@ -5239,7 +5239,7 @@ h1.page-title {
   position: relative;
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation > div > .menu-wrapper {
     padding-bottom: 100px;
   }
@@ -5254,7 +5254,7 @@ h1.page-title {
   width: 100%;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation > div > .menu-wrapper li {
     margin: 0;
     width: inherit;
@@ -5284,7 +5284,7 @@ h1.page-title {
   outline: 2px solid var(--wp--style--color--link, var(--global--color-primary));
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation > div > .menu-wrapper .sub-menu-toggle {
     display: none;
   }
@@ -5324,7 +5324,7 @@ h1.page-title {
   position: relative;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation > div > .menu-wrapper > li > .sub-menu {
     left: 0;
     margin: 0;
@@ -5390,7 +5390,7 @@ h1.page-title {
   color: var(--primary-nav--color-link-hover);
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation .primary-menu-container {
     margin-right: calc(0px - var(--primary-nav--padding));
     margin-left: calc(0px - var(--primary-nav--padding));
@@ -5418,7 +5418,7 @@ h1.page-title {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation a {
     display: block;
     font-family: var(--primary-nav--font-family);
@@ -5473,13 +5473,13 @@ h1.page-title {
   border: none;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation .sub-menu > .menu-item > .sub-menu {
     padding: 0;
   }
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .primary-navigation .sub-menu .menu-item:last-child {
     margin-bottom: 0;
   }
@@ -5494,7 +5494,7 @@ h1.page-title {
   letter-spacing: var(--global--heading-line-spacing);
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation .sub-menu .menu-item > a {
     font-size: var(--primary-nav--font-size-sub-menu);
     font-style: var(--primary-nav--font-style);
@@ -5505,7 +5505,7 @@ h1.page-title {
   display: none;
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 685px) {
   .primary-navigation .menu-item-has-children > .svg-icon {
     display: inline-block;
     height: 100%;
@@ -5527,7 +5527,7 @@ h1.page-title {
   display: inline-block;
 }
 
-@media only screen and (max-width: 591px) {
+@media only screen and (max-width: 684px) {
   .lock-scrolling .site {
     position: fixed;
     max-width: 100%;
