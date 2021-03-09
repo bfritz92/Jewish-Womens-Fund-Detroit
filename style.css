@@ -6616,13 +6616,11 @@ footer {
   position: relative;
   top: 4px;
   fill: var(--global--color-purple);
-  -webkit-transition: translateX(5px) 0.5s ease-in-out;
-  transition: translateX(5px) 0.5s ease-in-out;
 }
 
-.arrow-link:after:hover {
-  -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+.arrow-link:hover:after {
+  -webkit-transform: translateX(5px) 0.5s ease-in-out;
+          transform: translateX(5px) 0.5s ease-in-out;
 }
 
 .pdf-link:after {
