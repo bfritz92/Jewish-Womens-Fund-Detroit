@@ -25,6 +25,9 @@
 }
 #masthead {
   justify-content: space-between;
+  @include media(mobile-only) {
+    justify-content: space-around;
+  }
 }
 
 // Site branding

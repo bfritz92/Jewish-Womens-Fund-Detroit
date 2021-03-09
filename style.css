@@ -4194,6 +4194,13 @@ table.wp-calendar-table caption {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 481px) {
+  #masthead {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .site-branding {
   color: var(--branding--color-primary);
   margin-right: 140px;
