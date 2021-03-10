@@ -118,3 +118,7 @@
     }
   }
 }
+.splash figure img {
+  mask-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/03/splash-mask.svg);
+  object-fit: cover;
+}
