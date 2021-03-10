@@ -118,7 +118,8 @@
     }
   }
 }
-.splash figure img {
-  mask-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/03/splash-mask.svg);
+.splash figure.wp-block-media-text__media img {
+  mask-image: url(http://brian.jewishdetroit.org/wp-content/uploads/2021/03/splash-mask-1.svg);
   object-fit: cover;
+  mask-repeat: no-repeat;
 }
