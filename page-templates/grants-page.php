@@ -17,7 +17,13 @@ get_header(); ?>
 	<header class="entry-header alignfull">
 		<div class="has-black-color has-text-color has-background" style="background-color:#48348d">
 		<?php the_title( '<h1 class="alignwide has-white-color pb1">', '</h1>' ); ?>
-        <?php get_search_form() ?>
+        <div class="search-box">
+	      			<form action="" method="get" _lpchecked="1">
+		      			<label class="offscreen" for="term">Enter Search term</label>
+		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="WordPress">
+		      			<button type="sumbit" class="submit">Search</button>
+	      			</form>
+	   			</div>
 		</div>
 	</header>
 
