@@ -31,9 +31,7 @@ get_header(); ?>
 
 		<?php
         $term = sanitize_text_field($_GET['term']);
-        if(empty($term)){
-           $term = 'WordPress';
-        }
+        
 		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" category__not_in="7,6" search="'. $term .'"]');
         ?>
 	</div><!-- .entry-content -->
