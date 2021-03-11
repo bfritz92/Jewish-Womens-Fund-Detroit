@@ -20,7 +20,7 @@ get_header(); ?>
         <div class="search-box">
 	      			<form action="" method="get" _lpchecked="1">
 		      			<label class="offscreen" for="term">Enter Search term</label>
-		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="WordPress">
+		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="Search for a Grant">
 		      			<button type="sumbit" class="submit">Search</button>
 	      			</form>
 	   			</div>
@@ -32,7 +32,7 @@ get_header(); ?>
 		<?php
         $term = sanitize_text_field($_GET['term']);
         if(empty($term)){
-           $term = 'Search for a Grant';
+           $term = 'WordPress';
         }
 		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" category__not_in="7,6" search="'. $term .'"]');
         ?>
