@@ -23,6 +23,7 @@ get_header(); ?>
 		      			<input type="text" name="term" id="term" placeholder="Enter search term">
 						  <label for="cars">Choose a car:</label>
 						<select id="year" name="year">
+							<option value="IN">Any</option>
 							<option value="2017">2017</option>
 							<option value="2018">2018</option>
 							<option value="2019">2019</option>
