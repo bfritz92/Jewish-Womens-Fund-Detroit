@@ -21,7 +21,7 @@ get_header(); ?>
 	      			<form action="" method="get" _lpchecked="1">
 		      			<label class="offscreen" for="term">Enter Search term</label>
 		      			<input type="text" name="term" id="term" placeholder="Enter search term">
-						  <label for="cars">Choose a car:</label>
+						  <label for="cars">Choose a Year:</label>
 						<select id="year" name="year">
 							<option value="IN">Any</option>
 							<option value="2017">2017</option>
@@ -41,7 +41,7 @@ get_header(); ?>
         $term = sanitize_text_field($_GET['term']);
 		$year = sanitize_text_field($_GET['year']);
         if(empty($term)){
-           $term = 'grant';
+           $term = 'null';
         }
 		if(empty($year)){
 			$year = 'IN';
