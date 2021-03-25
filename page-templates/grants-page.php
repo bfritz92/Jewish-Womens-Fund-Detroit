@@ -42,7 +42,7 @@ get_header(); ?>
         $term = sanitize_text_field($_GET['term']);
 		$year = sanitize_text_field($_GET['year']);
         if(empty($term)){
-           $term = 'null';
+           $term = 'grants';
         }
 		if(empty($year)){
 			$year = 'IN';
