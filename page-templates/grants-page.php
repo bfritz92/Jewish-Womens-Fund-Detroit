@@ -21,6 +21,13 @@ get_header(); ?>
 	      			<form action="" method="get" _lpchecked="1">
 		      			<label class="offscreen" for="term">Enter Search term</label>
 		      			<input type="text" name="term" id="term" placeholder="Enter search term">
+						  <label for="cars">Choose a car:</label>
+						<select id="year" name="year">
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+						</select> 
 		      			<button type="sumbit" class="submit">Search</button>
 	      			</form>
 	   			</div>
@@ -31,10 +38,14 @@ get_header(); ?>
 
 		<?php
         $term = sanitize_text_field($_GET['term']);
+		$year = sanitize_text_field($_GET['year']);
         if(empty($term)){
            $term = 'grant';
         }
-		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" search="'. $term .'"]');
+		if(empty($year)){
+			$year = 'IN';
+		 }
+		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" search="'. $term .'" year="'. $year .'"]');
         ?>
 	</div><!-- .entry-content -->
 
