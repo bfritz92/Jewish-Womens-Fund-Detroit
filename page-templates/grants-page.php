@@ -25,7 +25,7 @@ get_header(); ?>
 	
 						<ul class="alm-filter-nav">
 						<li><a href="#" data-repeater="template_8" data-post-type="portfolio" data-posts-per-page="3" data-scroll="false" data-button-label="More Work">Recent Work</a></li>
-						<li><a href="#" data-repeater="default" data-post-type="post" data-posts-per-page="5" data-scroll="true" data-button-label="More Articles">Recent Articles</a></li>
+						<li><a href="#" data-repeater="default" data-post-type="post" data-post-category="grants" data-posts-per-page="5" data-scroll="true" data-button-label="More Articles">Recent Articles</a></li>
 						</ul>
 	      			</form>
 	   	</div>
