@@ -17,17 +17,13 @@ get_header(); ?>
 	<header class="entry-header alignfull">
 		<div class="has-black-color has-text-color has-background" style="background-color:#48348d">
 		<?php the_title( '<h1 class="alignwide has-white-color pb1">', '</h1>' ); ?>
-        <div class="alm-filter alm-filter--search" id="alm-filter-1" data-key="search" data-fieldtype="text" data-selected-value="" data-default-value="">
-			<div class="alm-filter--inner">
-				<div class="alm-filter--text">
-					<label for="search-text">Search Blog Posts</label>
-					<div class="alm-filter--text-wrap has-button">
-						<input class="alm-filter--textfield textfield" id="search-text" name="search-text" type="text" value="" placeholder="Enter Search Term...">
-							<button type="button">Search</button>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="search-box">
+	      			<form action="" method="get" _lpchecked="1">
+		      			<label class="offscreen" for="term">Enter Search term</label>
+		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="WordPress">
+		      			<button type="sumbit" class="submit">Search</button>
+	      			</form>
+	   			</div>
 			
 	</header>
 
