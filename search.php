@@ -62,4 +62,15 @@ if ( have_posts() ) {
 	get_template_part( 'template-parts/content/content-none' );
 }
 
+// http://website.com/?s=toronto+canada
+$term = (isset($_GET['s'])) ? $_GET['s'] : ''; // Get 's' querystring param
+?>
+ 
+<div id="container">
+  <?php 
+    // Ajax Load More shortcode with a unique ID parameter (searchwp).
+    echo do_shortcode('[ajax_load_more id="searchwp" search="'. $term .'" post_type="any"]'); 
+  ?>
+</div>
+
 get_footer();
