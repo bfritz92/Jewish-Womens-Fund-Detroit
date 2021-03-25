@@ -643,5 +643,17 @@ function twentytwentyone_add_ie_class() {
 add_action( 'wp_enqueue_scripts', function() {
 	$styles = wp_styles();
 	$styles->add_data( 'twenty-twenty-one-style', 'after', array() );
-}, 20 );
+}, 20 ); ?>
 
+<?php
+/*
+   functions.php
+   Use alm_query_args filter to pass data to SearchWP.
+   https://connekthq.com/plugins/ajax-load-more/docs/filter-hooks/#alm_query_args
+*/
+function my_alm_query_args_searchwp($args){   
+   $engine = 'default'; // default = default
+   $args = apply_filters('alm_searchwp', $args, $engine); // Make call to alm_searchwp filter
+   return $args;
+}
+add_filter( 'alm_query_args_searchwp', 'my_alm_query_args_searchwp'); ?>
