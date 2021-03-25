@@ -34,7 +34,7 @@ get_header(); ?>
         if(empty($term)){
            $term = 'grant';
         }
-		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" category__not_in="7,6" search="'. $term .'"]');
+		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" search="'. $term .'"]');
         ?>
 	</div><!-- .entry-content -->
 
