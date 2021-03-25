@@ -20,7 +20,7 @@ get_header(); ?>
         <div class="search-box">
 	      			<form action="" method="get" _lpchecked="1">
 		      			<label class="offscreen" for="term">Enter Search term</label>
-		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="WordPress">
+		      			<input type="text" name="term" id="term" placeholder="Enter search term">
 		      			<button type="sumbit" class="submit">Search</button>
 	      			</form>
 	   			</div>
