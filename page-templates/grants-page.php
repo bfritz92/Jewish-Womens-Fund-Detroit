@@ -17,18 +17,10 @@ get_header(); ?>
 	<header class="entry-header alignfull">
 		<div class="has-black-color has-text-color has-background" style="background-color:#48348d">
 		<?php the_title( '<h1 class="alignwide has-white-color pb1">', '</h1>' ); ?>
-        <div class="search-box">
-	      		    <form action="" method="get" _lpchecked="1">
-		      			<label class="offscreen" for="term">Enter Search term</label>
-		      			<input type="text" name="term" id="term" placeholder="Enter search term" value="Search for a Grant">
-		      			<button type="sumbit" class="submit">Search</button>
-	
-						<ul class="alm-filter-nav">
+        <ul class="alm-filter-nav">
 						<li><a href="#" data-repeater="default" data-post-type="post" data-category="Events" data-posts-per-page="3" data-scroll="false" data-button-label="More Work">Events</a></li>
 						<li><a href="#" data-repeater="default" data-post-type="post" data-category="Grants" data-posts-per-page="5" data-scroll="true" data-button-label="More Articles">Grants</a></li>
 						</ul>
-	      			</form>
-	   	</div>
 		</div>
 	</header>
 
