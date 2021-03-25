@@ -551,6 +551,27 @@ require get_template_directory() . '/inc/block-styles.php';
  */
 require get_template_directory() . '/inc/acf-blocks.php';
 
+// Our custom post type function
+function create_posttype() {
+ 
+    register_post_type( 'grants',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Grants' ),
+                'singular_name' => __( 'Grant' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'grants'),
+            'show_in_rest' => true,
+ 
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
 // Dark Mode.
 require_once get_template_directory() . '/classes/class-twenty-twenty-one-dark-mode.php';
 new Twenty_Twenty_One_Dark_Mode();
@@ -657,3 +678,4 @@ function my_alm_query_args_searchwp($args){
    return $args;
 }
 add_filter( 'alm_query_args_searchwp', 'my_alm_query_args_searchwp'); ?>
+

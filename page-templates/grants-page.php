@@ -18,7 +18,7 @@ get_header(); ?>
 		<div class="has-black-color has-text-color has-background" style="background-color:#48348d">
 		<?php the_title( '<h1 class="alignwide has-white-color pb1">', '</h1>' ); ?>
         <ul class="alm-filter-nav">
-						<li><a href="#" data-repeater="default" data-post-type="post" data-category="Events" data-posts-per-page="3" data-scroll="false" data-button-label="More Work">Events</a></li>
+						<li><a href="#" data-repeater="default" data-post-type="grant" data-category="Events" data-posts-per-page="3" data-scroll="true" data-button-label="More Work">Events</a></li>
 						<li><a href="#" data-repeater="default" data-post-type="post" data-category="Grants" data-posts-per-page="5" data-scroll="true" data-button-label="More Articles">Grants</a></li>
 						</ul>
 		</div>
