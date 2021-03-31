@@ -47,7 +47,7 @@ get_header(); ?>
 		if(empty($year)){
 			$year = 'IN';
 		 }
-		echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="10" category="grants" search="'. $term .'" year="'. $year .'"]');
+		echo do_shortcode('[ajax_load_more archive="true" post_type="post" posts_per_page="10" category="grants" search="'. $term .'" year="'. $year .'"]');
         ?>
 	</div><!-- .entry-content -->
 
