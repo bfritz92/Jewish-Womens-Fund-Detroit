@@ -176,6 +176,16 @@
   color: #fff;
   .wp-block-group__inner-container #search-filter-form-2136 {
     @extend %responsive-alignwide-width;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      :first-child {
+        width: 100%;
+      }
+      :last-child {
+        justify-self: end;
+      }
+    }
   }
 }
 
