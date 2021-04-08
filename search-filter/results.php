@@ -60,13 +60,13 @@ if ( $query->have_posts() )
 			<ul class="grant--info">
 				<li>
 					<strong>City/State:</strong>
-					<br/>
-					<?php the_field ('grant_amount'); ?>
+					<br />
+					<?php the_field ('city_state_country'); ?>
 				</li>
 				<li>
 					<strong>Amount:</strong>
 					<br />
-					<?php the_field ('grant_amount'); ?> 
+					<?php the_field ('year_grant_made'); ?> 
 				</li>
 				<li>
 					<strong>City/State:</strong>
