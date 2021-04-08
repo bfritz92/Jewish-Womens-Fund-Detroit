@@ -810,7 +810,7 @@ template {
   margin-right: auto;
 }
 
-.wide-max-width, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
+.wide-max-width, .grant-search--header .wp-block-group__inner-container .searchandfilter, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
 .comments-pagination, .widget-area {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;
@@ -2141,6 +2141,11 @@ input[type="reset"]:hover,
 
 .pre-footer--events ul.upcoming-events li li:last-child a {
   text-align: right;
+}
+
+.grant-search--header {
+  background-color: var(--global--color-primary);
+  color: #fff;
 }
 
 .sticky-nav {

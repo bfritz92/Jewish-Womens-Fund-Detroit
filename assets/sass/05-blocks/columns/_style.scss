@@ -171,6 +171,14 @@
   }
 }
 
+.grant-search--header {
+  background-color: var(--global--color-primary);
+  color: #fff;
+  .wp-block-group__inner-container .searchandfilter {
+    @extend %responsive-alignwide-width;
+  }
+}
+
 // STICKY NAV
 
 .sticky-nav {
