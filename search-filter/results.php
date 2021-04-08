@@ -57,7 +57,7 @@ if ( $query->have_posts() )
 		<div class="feature-grants">
 			<div>
 			<h4><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h4>
-			<p class="grant--title"><?php the_title(); ?></p>
+			<strong class="grant--title pb1"><?php the_title(); ?></strong>
 			<ul class="grant--info">
 				<li>
 					<strong>City/State:</strong>
