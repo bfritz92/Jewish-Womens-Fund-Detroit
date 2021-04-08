@@ -2148,6 +2148,23 @@ input[type="reset"]:hover,
   color: #fff;
 }
 
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul :first-child {
+  width: 100%;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul :last-child {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 .sticky-nav {
   display: -webkit-box;
   display: -ms-flexbox;
