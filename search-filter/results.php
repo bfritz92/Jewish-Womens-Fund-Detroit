@@ -56,7 +56,7 @@ if ( $query->have_posts() )
 		?>
 		<div class="feature-grants">
 			<div>
-			<h2><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h2>
+			<h4><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h4>
 			<p class="grant--title"><?php the_title(); ?></p>
 			<ul class="grant--info">
 				<li>
@@ -90,7 +90,7 @@ if ( $query->have_posts() )
 			</div>
 		</div>
 		
-		<hr />
+		<br />
 		<?php
 	}
 	?>
