@@ -54,10 +54,27 @@ if ( $query->have_posts() )
 		$query->the_post();
 		
 		?>
-		<div>
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			
-			<p><br /><?php the_excerpt(); ?></p>
+		<div class="feature-grants">
+			<h2><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h2>
+			<p class="grant--title"><?php the_title(); ?></p>
+			<ul class="grant--info">
+				<li>
+					<strong>City/State:</strong>
+					<br/>
+					<?php the_field ('grant_amount'); ?>
+				</li>
+				<li>
+					<strong>Amount:</strong>
+					<br />
+					<?php the_field ('grant_amount'); ?> 
+				</li>
+				<li>
+					<strong>City/State:</strong>
+					<br />
+					<?php the_field ('city_state_country'); ?> 
+				</li>
+			</ul>
+			<p class="grant--desc"><?php the_excerpt(); ?></p>
 			<?php 
 				if ( has_post_thumbnail() ) {
 					echo '<p>';
@@ -65,9 +82,10 @@ if ( $query->have_posts() )
 					echo '</p>';
 				}
 			?>
-			<p><?php the_category(); ?></p>
-			<p><?php the_tags(); ?></p>
-			<p><small><?php the_date(); ?></small></p>
+			<figure class="wp-block-image size-large grant--logo">
+				<img src="<?php the_field ('organization_logo'); ?>" width="300" height="62">
+			</figure>
+			
 			
 		</div>
 		
