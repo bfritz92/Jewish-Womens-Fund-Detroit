@@ -2047,25 +2047,30 @@ input[type="reset"]:hover,
   padding-right: var(--global--spacing-unit);
 }
 
+.feature-grants div,
 .feature-grants .wp-block-column {
   border: var(--global--color-purple) 3px solid;
   padding: 15px 20px 15px 15px;
 }
 
+.feature-grants div h4,
 .feature-grants .wp-block-column h4 {
   margin-bottom: 0;
 }
 
+.feature-grants div hr,
 .feature-grants .wp-block-column hr {
   border-width: 3px;
   border-color: var(--global--color-purple);
   margin: 0;
 }
 
+.feature-grants div .grant--title,
 .feature-grants .wp-block-column .grant--title {
   margin-bottom: 0;
 }
 
+.feature-grants div .grant--info,
 .feature-grants .wp-block-column .grant--info {
   padding: 0;
   list-style-type: none;
@@ -2083,18 +2088,22 @@ input[type="reset"]:hover,
       flex-wrap: wrap;
 }
 
+.feature-grants div .grant--info strong,
 .feature-grants .wp-block-column .grant--info strong {
   color: var(--global--color-purple);
 }
 
+.feature-grants div .grant--info li,
 .feature-grants .wp-block-column .grant--info li {
   padding-right: 15px;
 }
 
+.feature-grants div p,
 .feature-grants .wp-block-column p {
   margin: 15px 0;
 }
 
+.feature-grants div .grant--logo,
 .feature-grants .wp-block-column .grant--logo {
   max-width: 200px;
   margin: 15px;

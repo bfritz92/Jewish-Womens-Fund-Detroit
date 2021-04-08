@@ -55,6 +55,7 @@ if ( $query->have_posts() )
 		
 		?>
 		<div class="feature-grants">
+			<div>
 			<h2><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h2>
 			<p class="grant--title"><?php the_title(); ?></p>
 			<ul class="grant--info">
@@ -86,7 +87,7 @@ if ( $query->have_posts() )
 				<img src="<?php the_field ('organization_logo'); ?>" width="300" height="62">
 			</figure>
 			
-			
+			</div>
 		</div>
 		
 		<hr />
