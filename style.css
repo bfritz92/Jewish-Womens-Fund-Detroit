@@ -2156,13 +2156,15 @@ input[type="reset"]:hover,
       flex-wrap: wrap;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul :first-child {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-search {
   width: 100%;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul :last-child {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset,
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit {
   -ms-grid-column-align: end;
       justify-self: end;
+  background-color: var(--global--color-purple);
 }
 
 .sticky-nav {

@@ -179,11 +179,13 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      :first-child {
+      .sf-field-search {
         width: 100%;
       }
-      :last-child {
+      .sf-field-reset,
+      .sf-field-submit {
         justify-self: end;
+        background-color: var(--global--color-purple);
       }
     }
   }
