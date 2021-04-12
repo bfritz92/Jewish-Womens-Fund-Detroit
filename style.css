@@ -2150,6 +2150,7 @@ input[type="reset"]:hover,
 
 .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 {
   max-width: 950px;
+  margin: auto;
 }
 
 .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul {
@@ -2160,11 +2161,11 @@ input[type="reset"]:hover,
       flex-wrap: wrap;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-search {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-search label input.sf-input-text {
   width: clamp(300px, 750px, 70vw);
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-reset {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -2173,25 +2174,25 @@ input[type="reset"]:hover,
       align-self: center;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset a {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-reset a {
   color: #fff;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit {
   -ms-grid-column-align: end;
       justify-self: end;
   background-color: #fff;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit a {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit a {
   color: #fff;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit :hover {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover {
   background-color: var(--global--color-purple);
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit :hover a {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover a {
   color: var(--global--color-purple);
 }
 

@@ -176,20 +176,21 @@
   color: #fff;
   .wp-block-group__inner-container #search-filter-form-2136 {
     max-width: 950px;
+    margin: auto;
     ul {
       display: flex;
       flex-wrap: wrap;
-      .sf-field-search {
+      li.sf-field-search label input.sf-input-text {
         width: clamp(300px, 750px, 70vw);
       }
-      .sf-field-reset {
+      li.sf-field-reset {
         height: min-content;
         align-self: center;
         a {
           color: #fff;
         }
       }
-      .sf-field-submit {
+      li.sf-field-submit {
         justify-self: end;
         background-color: #fff;
         a {
