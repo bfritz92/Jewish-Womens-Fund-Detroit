@@ -178,7 +178,7 @@
     max-width: 950px;
     margin: auto;
     ul {
-      display: flex;
+      display: grid;
     }
 
     @include media(tablet) {
