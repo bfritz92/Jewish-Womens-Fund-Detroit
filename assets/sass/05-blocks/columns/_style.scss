@@ -175,17 +175,32 @@
   background-color: var(--global--color-primary);
   color: #fff;
   .wp-block-group__inner-container #search-filter-form-2136 {
-    @extend %responsive-alignwide-width;
+    max-width: 950px;
     ul {
       display: flex;
       flex-wrap: wrap;
       .sf-field-search {
-        width: 100%;
+        width: clamp(300px, 750px, 70vw);
       }
-      .sf-field-reset,
+      .sf-field-reset {
+        height: min-content;
+        align-self: center;
+        a {
+          color: #fff;
+        }
+      }
       .sf-field-submit {
         justify-self: end;
-        background-color: var(--global--color-purple);
+        background-color: #fff;
+        a {
+          color: #fff;
+        }
+        :hover {
+          background-color: var(--global--color-purple);
+          a {
+            color: var(--global--color-purple);
+          }
+        }
       }
     }
   }

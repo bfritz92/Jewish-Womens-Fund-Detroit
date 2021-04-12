@@ -810,7 +810,7 @@ template {
   margin-right: auto;
 }
 
-.wide-max-width, .grant-search--header .wp-block-group__inner-container #search-filter-form-2136, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
+.wide-max-width, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
 .comments-pagination, .widget-area {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;
@@ -2148,6 +2148,10 @@ input[type="reset"]:hover,
   color: #fff;
 }
 
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 {
+  max-width: 950px;
+}
+
 .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2157,14 +2161,38 @@ input[type="reset"]:hover,
 }
 
 .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-search {
-  width: 100%;
+  width: clamp(300px, 750px, 70vw);
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset,
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-reset a {
+  color: #fff;
+}
+
 .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit {
   -ms-grid-column-align: end;
       justify-self: end;
+  background-color: #fff;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit a {
+  color: #fff;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit :hover {
   background-color: var(--global--color-purple);
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul .sf-field-submit :hover a {
+  color: var(--global--color-purple);
 }
 
 .sticky-nav {
