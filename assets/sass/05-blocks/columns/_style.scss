@@ -179,7 +179,10 @@
     margin: auto;
     ul {
       display: flex;
-      @include media(tablet) {
+    }
+
+    @include media(tablet) {
+      ul {
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 1fr;
         max-width: 800px;
