@@ -179,11 +179,6 @@
     margin: auto;
     ul {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      li {
-        width: 100%;
-      }
       @include media(tablet) {
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 1fr;
