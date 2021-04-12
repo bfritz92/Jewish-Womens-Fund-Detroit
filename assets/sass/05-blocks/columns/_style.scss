@@ -180,26 +180,39 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      li.sf-field-search label input.sf-input-text {
-        width: clamp(300px, 750px, 70vw);
+      justify-content: space-around;
+      li {
+        width: 100%;
       }
-      li.sf-field-reset {
-        height: min-content;
-        align-self: center;
-        a {
-          color: #fff;
+      @include media(tablet) {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+        max-width: 800px;
+        margin: auto;
+        li.sf-field-search label input.sf-input-text {
+          width: clamp(300px, 820px, 70vw);
+          grid-column: 1/-1;
         }
-      }
-      li.sf-field-submit {
-        justify-self: end;
-        background-color: #fff;
-        a {
-          color: #fff;
+        li.sf-field-reset {
+          height: min-content;
+          align-self: center;
+          justify-self: center;
+          a {
+            color: #fff;
+          }
         }
-        :hover {
-          background-color: var(--global--color-purple);
+        li.sf-field-submit {
+          justify-self: end;
+
           a {
             color: var(--global--color-purple);
+            background-color: #fff;
+          }
+          :hover {
+            a {
+              color: #fff;
+              background-color: var(--global--color-purple);
+            }
           }
         }
       }
