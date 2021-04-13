@@ -2167,9 +2167,11 @@ input[type="reset"]:hover,
     max-width: 800px;
     margin: auto;
   }
+  .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-search {
+    grid-column: 1/-1;
+  }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-search label input.sf-input-text {
     width: clamp(300px, 820px, 70vw);
-    grid-column: 1/-1;
   }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-reset {
     height: -webkit-min-content;

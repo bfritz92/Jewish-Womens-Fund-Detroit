@@ -187,10 +187,13 @@
         grid-template-columns: 2fr 2fr 1fr 1fr;
         max-width: 800px;
         margin: auto;
-        li.sf-field-search label input.sf-input-text {
-          width: clamp(300px, 820px, 70vw);
+        li.sf-field-search {
           grid-column: 1/-1;
+          label input.sf-input-text {
+            width: clamp(300px, 820px, 70vw);
+          }
         }
+
         li.sf-field-reset {
           height: min-content;
           align-self: center;
