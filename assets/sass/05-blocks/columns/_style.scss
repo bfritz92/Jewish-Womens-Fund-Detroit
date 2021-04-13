@@ -190,7 +190,7 @@
         li.sf-field-search {
           grid-column: 1/-1;
           label input.sf-input-text {
-            width: clamp(300px, 820px, 70vw);
+            width: clamp(300px, 700px, 70vw);
           }
         }
 
@@ -204,7 +204,8 @@
         }
         li.sf-field-submit {
           justify-self: end;
-
+          height: min-content;
+          align-self: center;
           a {
             color: var(--global--color-purple);
             background-color: #fff;

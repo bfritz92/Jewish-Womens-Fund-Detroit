@@ -2171,7 +2171,7 @@ input[type="reset"]:hover,
     grid-column: 1/-1;
   }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-search label input.sf-input-text {
-    width: clamp(300px, 820px, 70vw);
+    width: clamp(300px, 700px, 70vw);
   }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-reset {
     height: -webkit-min-content;
@@ -2189,6 +2189,12 @@ input[type="reset"]:hover,
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit {
     -ms-grid-column-align: end;
         justify-self: end;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit a {
     color: var(--global--color-purple);
