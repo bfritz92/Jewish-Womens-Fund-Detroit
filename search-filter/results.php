@@ -58,8 +58,8 @@ if ( $query->have_posts() )
 			<div>
 			<h4><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h4>
 			<p class="grant--title"><strong><?php the_title(); ?></strong></p>
-			<ul class="grant--info">
-				<li>
+			<ul class="grant--info mt1">
+				<li">
 					<strong>City/State:</strong>
 					<br />
 					<?php the_field ('city_state_country'); ?>
