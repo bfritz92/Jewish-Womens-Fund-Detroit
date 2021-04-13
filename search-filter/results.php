@@ -75,7 +75,7 @@ if ( $query->have_posts() )
 					<?php the_field ('year_grant_made'); ?> 
 				</li>
 			</ul>
-			<p class="grant--desc"><?php the_excerpt(); ?></p>
+			<?php the_excerpt(); ?>
 			<?php 
 				if ( has_post_thumbnail() ) {
 					echo '<p>';
