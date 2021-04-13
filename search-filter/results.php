@@ -67,12 +67,12 @@ if ( $query->have_posts() )
 				<li>
 					<strong>Amount:</strong>
 					<br />
-					<?php the_field ('year_grant_made'); ?> 
+					<?php the_field ('grant_amount'); ?> 
 				</li>
 				<li>
-					<strong>City/State:</strong>
+					<strong>Year:</strong>
 					<br />
-					<?php the_field ('city_state_country'); ?> 
+					<?php the_field ('year_grant_made'); ?> 
 				</li>
 			</ul>
 			<p class="grant--desc"><?php the_excerpt(); ?></p>
