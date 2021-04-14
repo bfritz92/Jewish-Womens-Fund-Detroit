@@ -16,6 +16,7 @@
 	<header class="entry-header alignwide">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php twenty_twenty_one_post_thumbnail(); ?>
+		<h3>Testing</h3>
 	</header>
 
 	<div class="entry-content">
