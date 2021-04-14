@@ -67,7 +67,7 @@ if ( $query->have_posts() )
 				<li>
 					<strong>Amount:</strong>
 					<br />
-					$<?php the_field ('grant_amount'); ?> 
+					$ <?php the_field ('grant_amount'); ?> 
 				</li>
 				<li>
 					<strong>Year:</strong>
