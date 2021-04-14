@@ -20,6 +20,41 @@
 	</header>
 
 	<div class="entry-content">
+	<div class="feature-grants">
+			<div>
+			<h4><a href="<?php the_permalink(); ?>"><?php the_field ('name_of_organization'); ?></a></h4>
+			<p class="grant--title"><strong><?php the_title(); ?></strong></p>
+			<ul class="grant--info mt1">
+				<li>
+					<strong>City/State:</strong>
+					<br />
+					<?php the_field ('city_state_country'); ?>
+				</li>
+				<li>
+					<strong>Amount:</strong>
+					<br />
+					$ <?php the_field ('grant_amount'); ?> 
+				</li>
+				<li>
+					<strong>Year:</strong>
+					<br />
+					<?php the_field ('year_grant_made'); ?> 
+				</li>
+			</ul>
+			<?php the_excerpt(); ?>
+			<?php 
+				if ( has_post_thumbnail() ) {
+					echo '<p>';
+					the_post_thumbnail("small");
+					echo '</p>';
+				}
+			?>
+			<figure class="wp-block-image size-large grant--logo">
+				<img src="<?php the_field ('organization_logo'); ?>" width="300" height="62">
+			</figure>
+			
+			</div>
+		</div>
 		<?php
 		the_content();
 
