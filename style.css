@@ -1577,7 +1577,8 @@ fieldset input[type="checkbox"] + label {
   color: var(--global--color-primary);
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio {
+#field_8_4 .ginput_container_radio .gfield_radio,
+#field_9_4 .ginput_container_radio .gfield_radio {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -1585,7 +1586,8 @@ fieldset input[type="checkbox"] + label {
   grid-gap: 10px;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li {
+#field_8_4 .ginput_container_radio .gfield_radio li,
+#field_9_4 .ginput_container_radio .gfield_radio li {
   color: var(--global--color-primary);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1602,26 +1604,32 @@ fieldset input[type="checkbox"] + label {
   margin-bottom: 0;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li:hover, #field_8_4 .ginput_container_radio .gfield_radio li:focus {
+#field_8_4 .ginput_container_radio .gfield_radio li:hover, #field_8_4 .ginput_container_radio .gfield_radio li:focus,
+#field_9_4 .ginput_container_radio .gfield_radio li:hover,
+#field_9_4 .ginput_container_radio .gfield_radio li:focus {
   color: var(--global--color-white);
   background-color: var(--global--color-primary);
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li input {
+#field_8_4 .ginput_container_radio .gfield_radio li input,
+#field_9_4 .ginput_container_radio .gfield_radio li input {
   display: none;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label {
+#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label,
+#field_9_4 .ginput_container_radio .gfield_radio li input:checked + label {
   background-color: var(--global--color-primary);
   color: #fff;
   font-weight: 700;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label a {
+#field_8_4 .ginput_container_radio .gfield_radio li input:checked + label a,
+#field_9_4 .ginput_container_radio .gfield_radio li input:checked + label a {
   color: #fff;
 }
 
-#field_8_4 .ginput_container_radio .gfield_radio li label {
+#field_8_4 .ginput_container_radio .gfield_radio li label,
+#field_9_4 .ginput_container_radio .gfield_radio li label {
   width: 100%;
   max-width: 100%;
   font-weight: 700;
