@@ -3,6 +3,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  &.alignwide {
+    padding: 0;
+  }
   &.has-media-on-the-right .wp-block-media-text__content {
     justify-self: end;
   }

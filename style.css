@@ -3069,6 +3069,10 @@ dd {
   margin-bottom: 0;
 }
 
+.wp-block-media-text.alignwide {
+  padding: 0;
+}
+
 .wp-block-media-text.has-media-on-the-right .wp-block-media-text__content {
   -ms-grid-column-align: end;
       justify-self: end;
