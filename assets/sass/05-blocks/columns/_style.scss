@@ -179,6 +179,21 @@
     margin: auto;
     ul {
       display: grid;
+      li.sf-field-submit {
+        justify-self: end;
+        height: min-content;
+        align-self: center;
+        a {
+          color: var(--global--color-purple);
+          background-color: #fff;
+        }
+        :hover {
+          a {
+            color: #fff;
+            background-color: var(--global--color-purple);
+          }
+        }
+      }
     }
 
     @include media(tablet) {
@@ -200,21 +215,6 @@
           justify-self: center;
           a {
             color: #fff;
-          }
-        }
-        li.sf-field-submit {
-          justify-self: end;
-          height: min-content;
-          align-self: center;
-          a {
-            color: var(--global--color-purple);
-            background-color: #fff;
-          }
-          :hover {
-            a {
-              color: #fff;
-              background-color: var(--global--color-purple);
-            }
           }
         }
       }

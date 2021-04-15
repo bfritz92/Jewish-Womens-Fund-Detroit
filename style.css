@@ -2166,6 +2166,27 @@ input[type="reset"]:hover,
   display: grid;
 }
 
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit a {
+  color: var(--global--color-purple);
+  background-color: #fff;
+}
+
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover a {
+  color: #fff;
+  background-color: var(--global--color-purple);
+}
+
 @media only screen and (min-width: 592px) {
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul {
     display: -ms-grid;
@@ -2193,24 +2214,6 @@ input[type="reset"]:hover,
   }
   .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-reset a {
     color: #fff;
-  }
-  .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit {
-    -ms-grid-column-align: end;
-        justify-self: end;
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit a {
-    color: var(--global--color-purple);
-    background-color: #fff;
-  }
-  .grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover a {
-    color: #fff;
-    background-color: var(--global--color-purple);
   }
 }
 
@@ -3077,10 +3080,10 @@ dd {
 }
 
 .wp-block-media-text.has-media-on-the-right.left-rule .wp-block-media-text__content {
-  border-right: 3px solid var(--global--color-purple);
-  border-left: none;
+  border-left: 3px solid var(--global--color-purple);
+  border-right: none;
   margin-right: var(--global--spacing-horizontal);
-  margin-left: none;
+  margin-left: 0;
 }
 
 .wp-block-media-text a:focus img {
