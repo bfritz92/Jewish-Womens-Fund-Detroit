@@ -76,16 +76,6 @@ if ( $query->have_posts() )
 				</li>
 			</ul>
 			<?php the_excerpt(); ?>
-			<?php 
-				if ( has_post_thumbnail() ) {
-					echo '<p>';
-					the_post_thumbnail("small");
-					echo '</p>';
-				}
-			?>
-			<figure class="wp-block-image size-large grant--logo">
-				<img src="<?php the_field ('organization_logo'); ?>" width="300" height="62">
-			</figure>
 			
 			</div>
 		</div>

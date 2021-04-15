@@ -16,7 +16,6 @@
 	<header class="entry-header alignwide">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php twenty_twenty_one_post_thumbnail(); ?>
-		<h3>Testing</h3>
 	</header>
 
 	<div class="entry-content">
@@ -41,22 +40,11 @@
 					<?php the_field ('year_grant_made'); ?> 
 				</li>
 			</ul>
-			<?php the_excerpt(); ?>
-			<?php 
-				if ( has_post_thumbnail() ) {
-					echo '<p>';
-					the_post_thumbnail("small");
-					echo '</p>';
-				}
-			?>
-			<figure class="wp-block-image size-large grant--logo">
-				<img src="<?php the_field ('organization_logo'); ?>" width="300" height="62">
-			</figure>
+			<?php the_content(); ?>
 			
 			</div>
 		</div>
 		<?php
-		the_content();
 
 		wp_link_pages(
 			array(
@@ -72,9 +60,5 @@
 	<footer class="entry-footer alignwide">
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
-
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author-bio' ); ?>
-	<?php endif; ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->
