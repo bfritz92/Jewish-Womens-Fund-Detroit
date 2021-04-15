@@ -2414,7 +2414,14 @@ input[type="reset"]:hover,
 
 .wp-block-cover h2.has-text-align-right,
 .wp-block-cover-image h2.has-text-align-right {
-  text-align: right;
+  text-align: left;
+}
+
+@media only screen and (min-width: 592px) {
+  .wp-block-cover h2.has-text-align-right,
+  .wp-block-cover-image h2.has-text-align-right {
+    text-align: right;
+  }
 }
 
 .wp-block-cover .wp-block-cover__inner-container,
