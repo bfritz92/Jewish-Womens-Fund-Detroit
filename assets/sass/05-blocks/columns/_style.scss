@@ -183,12 +183,12 @@
         justify-self: end;
         height: min-content;
         align-self: center;
-        a {
+        input {
           color: var(--global--color-purple);
           background-color: #fff;
         }
         :hover {
-          a {
+          input {
             color: #fff;
             background-color: var(--global--color-purple);
           }

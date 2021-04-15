@@ -2177,12 +2177,12 @@ input[type="reset"]:hover,
       align-self: center;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit a {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit input {
   color: var(--global--color-purple);
   background-color: #fff;
 }
 
-.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover a {
+.grant-search--header .wp-block-group__inner-container #search-filter-form-2136 ul li.sf-field-submit :hover input {
   color: #fff;
   background-color: var(--global--color-purple);
 }
