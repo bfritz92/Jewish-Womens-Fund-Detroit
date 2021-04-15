@@ -109,7 +109,7 @@
 .flame-heading {
   grid-template-columns: 100px 1fr;
   max-width: 850px;
-  padding-top: 2rem;
+  padding-top: 2rem !important;
   .wp-block-media-text__content {
     max-width: 750px;
   }

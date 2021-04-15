@@ -3198,7 +3198,7 @@ dd {
   -ms-grid-columns: 100px 1fr;
       grid-template-columns: 100px 1fr;
   max-width: 850px;
-  padding-top: 2rem;
+  padding-top: 2rem !important;
 }
 
 .flame-heading .wp-block-media-text__content {
